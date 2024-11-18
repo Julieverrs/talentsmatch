@@ -1,0 +1,501 @@
+Name,Job_Title,Skills,Experience
+Person 1,Nurse,"Patient Assessment, Medical Terminology, Pharmaceutical Knowledge",8 years
+Person 2,Software Engineer,"SQL, Cloud Computing, Docker",8 years
+Person 3,Graphic Designer,"Sketch, InDesign, Adobe Illustrator",8 years
+Person 4,Teacher,"Lesson Planning, Education Technology, Communication",9 years
+Person 5,Software Engineer,"Python, Kubernetes, Docker",1 years
+Person 6,Web Developer,"React, HTML, SQL",2 years
+Person 7,Content Writer,"Content Strategy, Blogging, Writing",3 years
+Person 8,Electrician,"Safety Procedures, Troubleshooting, Blueprint Reading",2 years
+Person 9,Financial Analyst,"Data Analysis, Forecasting, Budgeting",8 years
+Person 10,Teacher,"Communication, Education Technology, Curriculum Design",8 years
+Person 11,Project Manager,"Communication, Team Management, Budgeting",10 years
+Person 12,Financial Analyst,"Financial Modeling, Budgeting, Accounting",5 years
+Person 13,Project Manager,"Agile, Risk Management, Budgeting",3 years
+Person 14,Sales Manager,"Customer Acquisition, Sales Strategy, Negotiation",3 years
+Person 15,Graphic Designer,"Creativity, Sketch, Figma",1 years
+Person 16,Software Engineer,"Cloud Computing, C++, Python",3 years
+Person 17,Teacher,"Communication, Lesson Planning, Classroom Management",5 years
+Person 18,HR Manager,"Communication, Organizational Development, Recruitment",3 years
+Person 19,Customer Support,"CRM Software, Problem Solving, Customer Service",4 years
+Person 20,Financial Analyst,"Financial Modeling, Budgeting, SQL",9 years
+Person 21,Electrician,"Safety Procedures, Troubleshooting, Problem Solving",8 years
+Person 22,Financial Analyst,"Excel, Data Analysis, QuickBooks",1 years
+Person 23,Nurse,"Patient Assessment, Teamwork, Clinical Skills",6 years
+Person 24,Nurse,"Medical Terminology, Critical Thinking, Patient Care",1 years
+Person 25,Project Manager,"Project Planning, Agile, Team Management",1 years
+Person 26,Nurse,"Critical Thinking, Patient Care, Teamwork",1 years
+Person 27,HR Manager,"Communication, Employee Relations, Recruitment",8 years
+Person 28,Chef,"Menu Planning, Knife Skills, Food Presentation",6 years
+Person 29,HR Manager,"Performance Management, Labor Laws, HR Software",10 years
+Person 30,Software Engineer,"Kubernetes, Cloud Computing, Python",4 years
+Person 31,Content Writer,"Content Strategy, Research, SEO",1 years
+Person 32,Marketing Manager,"SEO, PPC, Content Marketing",2 years
+Person 33,Product Manager,"Leadership, Data Analysis, Product Development",7 years
+Person 34,Teacher,"Student Assessment, Lesson Planning, Communication",10 years
+Person 35,HR Manager,"HR Software, Labor Laws, Training",6 years
+Person 36,Financial Analyst,"Data Analysis, Budgeting, QuickBooks",8 years
+Person 37,Project Manager,"Team Management, Project Planning, Budgeting",10 years
+Person 38,Customer Support,"Communication, Product Knowledge, Time Management",1 years
+Person 39,Project Manager,"Time Management, Communication, Team Management",4 years
+Person 40,Legal Advisor,"Contract Law, Legal Writing, Litigation",6 years
+Person 41,Software Engineer,"JavaScript, SQL, Cloud Computing",10 years
+Person 42,Digital Marketer,"Google Analytics, Email Marketing, Content Creation",10 years
+Person 43,Sales Manager,"Client Relationships, CRM, Customer Acquisition",3 years
+Person 44,Marketing Manager,"Email Marketing, Social Media Marketing, Market Research",7 years
+Person 45,Project Manager,"Agile, Time Management, Risk Management",1 years
+Person 46,Data Scientist,"TensorFlow, Pandas, Data Visualization",10 years
+Person 47,Financial Analyst,"SQL, Financial Modeling, Power BI",10 years
+Person 48,Teacher,"Pedagogy, Lesson Planning, Curriculum Design",1 years
+Person 49,Marketing Manager,"Social Media Marketing, SEO, Market Research",2 years
+Person 50,Data Scientist,"Machine Learning, Python, SQL",4 years
+Person 51,Digital Marketer,"Social Media Marketing, PPC, Email Marketing",9 years
+Person 52,Content Writer,"SEO, Editing, Writing",1 years
+Person 53,Marketing Manager,"PPC, Content Marketing, Social Media Marketing",1 years
+Person 54,Marketing Manager,"PPC, Social Media Marketing, Content Marketing",6 years
+Person 55,Mechanic,"Manual Tools, Engine Repair, Diagnostics",8 years
+Person 56,Legal Advisor,"Legal Writing, Litigation, Compliance",3 years
+Person 57,Web Developer,"JavaScript, CSS, HTML",8 years
+Person 58,Data Scientist,"Deep Learning, NumPy, SQL",3 years
+Person 59,Teacher,"Pedagogy, Classroom Management, Curriculum Design",6 years
+Person 60,Mechanic,"Diagnostics, Vehicle Maintenance, Manual Tools",1 years
+Person 61,Electrician,"Wiring, Problem Solving, Circuitry",4 years
+Person 62,HR Manager,"Communication, Recruitment, Organizational Development",1 years
+Person 63,Project Manager,"Team Management, Project Planning, Communication",1 years
+Person 64,Graphic Designer,"Figma, Adobe Photoshop, Creativity",7 years
+Person 65,Content Writer,"SEO, Research, Writing",2 years
+Person 66,Nurse,"Clinical Skills, Pharmaceutical Knowledge, Medical Terminology",5 years
+Person 67,Content Writer,"Proofreading, Content Strategy, Writing",2 years
+Person 68,Marketing Manager,"Social Media Marketing, Brand Management, SEO",6 years
+Person 69,Digital Marketer,"Social Media Marketing, Content Creation, Google Analytics",9 years
+Person 70,Graphic Designer,"Adobe Illustrator, Figma, Sketch",1 years
+Person 71,Software Engineer,"Java, SQL, Docker",1 years
+Person 72,Software Engineer,"JavaScript, SQL, Python",5 years
+Person 73,Web Developer,"SQL, Git, HTML",4 years
+Person 74,Teacher,"Student Assessment, Classroom Management, Lesson Planning",6 years
+Person 75,Financial Analyst,"Budgeting, Forecasting, Excel",10 years
+Person 76,Marketing Manager,"PPC, Social Media Marketing, Brand Management",6 years
+Person 77,Data Scientist,"Deep Learning, R, NumPy",10 years
+Person 78,Electrician,"Safety Procedures, Blueprint Reading, Problem Solving",6 years
+Person 79,Product Manager,"Roadmap Planning, UX/UI, Communication",3 years
+Person 80,Mechanic,"Manual Tools, Safety Procedures, Diagnostics",6 years
+Person 81,Customer Support,"Problem Solving, Product Knowledge, Time Management",9 years
+Person 82,Nurse,"Patient Care, Critical Thinking, Pharmaceutical Knowledge",3 years
+Person 83,Digital Marketer,"Google Analytics, Content Creation, Email Marketing",5 years
+Person 84,Digital Marketer,"Brand Strategy, Google Analytics, Email Marketing",7 years
+Person 85,Data Scientist,"R, TensorFlow, Pandas",6 years
+Person 86,Financial Analyst,"Budgeting, QuickBooks, Accounting",6 years
+Person 87,Customer Support,"Empathy, Product Knowledge, Problem Solving",10 years
+Person 88,Chef,"Cooking, Food Safety, Creativity",8 years
+Person 89,Financial Analyst,"QuickBooks, Budgeting, Excel",3 years
+Person 90,Product Manager,"UX/UI, Communication, Leadership",8 years
+Person 91,Sales Manager,"Negotiation, Team Leadership, CRM",4 years
+Person 92,Data Scientist,"Python, Machine Learning, R",10 years
+Person 93,Software Engineer,"Git, Python, Cloud Computing",8 years
+Person 94,Sales Manager,"CRM, Client Relationships, Negotiation",4 years
+Person 95,Sales Manager,"Negotiation, Team Leadership, Market Research",10 years
+Person 96,Product Manager,"Market Research, Agile, Leadership",5 years
+Person 97,Content Writer,"Proofreading, Creative Writing, Content Strategy",7 years
+Person 98,Project Manager,"Agile, Team Management, Budgeting",4 years
+Person 99,Digital Marketer,"Content Creation, SEO, Social Media Marketing",8 years
+Person 100,Content Writer,"Writing, Proofreading, Blogging",10 years
+Person 101,Software Engineer,"Git, JavaScript, Cloud Computing",9 years
+Person 102,Nurse,"Teamwork, Critical Thinking, Patient Assessment",9 years
+Person 103,Teacher,"Student Assessment, Lesson Planning, Curriculum Design",10 years
+Person 104,Electrician,"Wiring, Circuitry, Troubleshooting",8 years
+Person 105,Customer Support,"CRM Software, Product Knowledge, Empathy",3 years
+Person 106,Legal Advisor,"Document Drafting, Litigation, Negotiation",2 years
+Person 107,HR Manager,"Communication, HR Software, Labor Laws",1 years
+Person 108,Chef,"Food Presentation, Cooking, Time Management",6 years
+Person 109,Chef,"Food Safety, Food Presentation, Time Management",4 years
+Person 110,Software Engineer,"Git, Python, JavaScript",3 years
+Person 111,Marketing Manager,"Content Marketing, Social Media Marketing, PPC",6 years
+Person 112,Customer Support,"Problem Solving, CRM Software, Empathy",7 years
+Person 113,Nurse,"Patient Assessment, Medical Terminology, Critical Thinking",7 years
+Person 114,Mechanic,"Safety Procedures, Engine Repair, Diagnostics",10 years
+Person 115,Financial Analyst,"Financial Modeling, Data Analysis, Excel",4 years
+Person 116,Data Scientist,"Machine Learning, NumPy, Python",9 years
+Person 117,Electrician,"Safety Procedures, Wiring, Problem Solving",3 years
+Person 118,Sales Manager,"Sales Strategy, Negotiation, CRM",5 years
+Person 119,Data Scientist,"Python, R, Statistics",1 years
+Person 120,Digital Marketer,"SEO, Brand Strategy, PPC",7 years
+Person 121,Nurse,"Patient Care, Medical Terminology, Teamwork",8 years
+Person 122,Product Manager,"Agile, Market Research, Data Analysis",9 years
+Person 123,Content Writer,"Research, SEO, Blogging",5 years
+Person 124,Nurse,"Medical Terminology, Patient Care, Critical Thinking",1 years
+Person 125,Electrician,"Circuitry, Safety Procedures, Problem Solving",8 years
+Person 126,Project Manager,"Team Management, Stakeholder Management, Budgeting",1 years
+Person 127,Customer Support,"Communication, Product Knowledge, Problem Solving",8 years
+Person 128,Teacher,"Curriculum Design, Student Assessment, Pedagogy",5 years
+Person 129,Customer Support,"Communication, Time Management, Empathy",10 years
+Person 130,Electrician,"Problem Solving, Troubleshooting, Circuitry",6 years
+Person 131,Content Writer,"SEO, Blogging, Content Strategy",9 years
+Person 132,Web Developer,"Vue.js, Express, SQL",8 years
+Person 133,Legal Advisor,"Compliance, Corporate Law, Document Drafting",3 years
+Person 134,Digital Marketer,"Google Analytics, Email Marketing, Google Ads",9 years
+Person 135,Web Developer,"Git, HTML, Node.js",3 years
+Person 136,Sales Manager,"Team Leadership, Sales Strategy, Customer Acquisition",3 years
+Person 137,Nurse,"Medical Terminology, Critical Thinking, Teamwork",9 years
+Person 138,Mechanic,"Manual Tools, Vehicle Maintenance, Engine Repair",6 years
+Person 139,Chef,"Knife Skills, Cooking, Menu Planning",10 years
+Person 140,Digital Marketer,"Email Marketing, Google Ads, Content Creation",4 years
+Person 141,Digital Marketer,"Social Media Marketing, Content Creation, SEO",10 years
+Person 142,Customer Support,"Communication, Problem Solving, Empathy",1 years
+Person 143,Sales Manager,"CRM, Team Leadership, Negotiation",6 years
+Person 144,Graphic Designer,"Adobe Photoshop, Figma, Creativity",6 years
+Person 145,Digital Marketer,"Content Creation, Google Ads, Email Marketing",7 years
+Person 146,Teacher,"Education Technology, Curriculum Design, Classroom Management",4 years
+Person 147,Sales Manager,"Customer Acquisition, Client Relationships, CRM",4 years
+Person 148,Legal Advisor,"Corporate Law, Legal Writing, Legal Research",5 years
+Person 149,Chef,"Cooking, Knife Skills, Creativity",8 years
+Person 150,Nurse,"Teamwork, Medical Terminology, Critical Thinking",10 years
+Person 151,Product Manager,"Data Analysis, Leadership, Product Development",9 years
+Person 152,Chef,"Food Safety, Menu Planning, Creativity",5 years
+Person 153,Sales Manager,"CRM, Client Relationships, Team Leadership",4 years
+Person 154,Data Scientist,"NumPy, SQL, Statistics",4 years
+Person 155,Financial Analyst,"Budgeting, Excel, QuickBooks",1 years
+Person 156,Data Scientist,"Machine Learning, R, SQL",7 years
+Person 157,Mechanic,"Diagnostics, Vehicle Maintenance, Engine Repair",4 years
+Person 158,Digital Marketer,"Brand Strategy, Social Media Marketing, Google Ads",3 years
+Person 159,Financial Analyst,"Data Analysis, QuickBooks, Forecasting",2 years
+Person 160,Product Manager,"Data Analysis, Communication, UX/UI",1 years
+Person 161,Digital Marketer,"Google Analytics, PPC, Brand Strategy",10 years
+Person 162,Project Manager,"Time Management, Budgeting, Team Management",4 years
+Person 163,Mechanic,"Safety Procedures, Vehicle Maintenance, Manual Tools",10 years
+Person 164,Customer Support,"Customer Service, Time Management, CRM Software",5 years
+Person 165,Electrician,"Troubleshooting, Blueprint Reading, Safety Procedures",9 years
+Person 166,Customer Support,"Product Knowledge, Communication, CRM Software",8 years
+Person 167,Product Manager,"Roadmap Planning, Product Development, Data Analysis",8 years
+Person 168,Customer Support,"CRM Software, Problem Solving, Product Knowledge",6 years
+Person 169,Product Manager,"Market Research, Communication, UX/UI",10 years
+Person 170,Teacher,"Lesson Planning, Curriculum Design, Communication",3 years
+Person 171,Financial Analyst,"Accounting, Budgeting, Forecasting",3 years
+Person 172,Content Writer,"Creative Writing, SEO, Blogging",5 years
+Person 173,Sales Manager,"Market Research, Customer Acquisition, Sales Strategy",1 years
+Person 174,Data Scientist,"Deep Learning, Statistics, Machine Learning",7 years
+Person 175,Digital Marketer,"Email Marketing, Content Creation, SEO",9 years
+Person 176,Chef,"Teamwork, Creativity, Food Safety",8 years
+Person 177,Web Developer,"React, Express, Vue.js",8 years
+Person 178,Data Scientist,"R, TensorFlow, Pandas",5 years
+Person 179,Software Engineer,"Java, Git, Agile",1 years
+Person 180,Project Manager,"Agile, Budgeting, Project Planning",6 years
+Person 181,Mechanic,"Safety Procedures, Diagnostics, Engine Repair",3 years
+Person 182,Legal Advisor,"Negotiation, Legal Writing, Litigation",8 years
+Person 183,Legal Advisor,"Document Drafting, Compliance, Legal Research",8 years
+Person 184,Marketing Manager,"SEO, Marketing Strategy, Market Research",3 years
+Person 185,Nurse,"Medical Terminology, Patient Care, Pharmaceutical Knowledge",1 years
+Person 186,Marketing Manager,"Brand Management, Content Marketing, SEO",5 years
+Person 187,Digital Marketer,"Google Ads, Content Creation, Brand Strategy",3 years
+Person 188,Sales Manager,"Customer Acquisition, Client Relationships, CRM",4 years
+Person 189,Software Engineer,"Python, Cloud Computing, SQL",7 years
+Person 190,HR Manager,"Performance Management, Employee Relations, Labor Laws",9 years
+Person 191,Marketing Manager,"Social Media Marketing, PPC, Email Marketing",3 years
+Person 192,Software Engineer,"SQL, C++, Cloud Computing",9 years
+Person 193,Project Manager,"Communication, Stakeholder Management, Budgeting",6 years
+Person 194,Teacher,"Pedagogy, Classroom Management, Communication",5 years
+Person 195,Content Writer,"SEO, Proofreading, Content Strategy",6 years
+Person 196,Electrician,"Problem Solving, Wiring, Circuitry",7 years
+Person 197,Project Manager,"Communication, Time Management, Budgeting",8 years
+Person 198,Chef,"Menu Planning, Food Presentation, Time Management",9 years
+Person 199,Customer Support,"CRM Software, Communication, Empathy",6 years
+Person 200,Software Engineer,"Agile, Cloud Computing, JavaScript",8 years
+Person 201,Nurse,"Patient Assessment, Critical Thinking, Teamwork",1 years
+Person 202,Customer Support,"Time Management, Product Knowledge, Problem Solving",8 years
+Person 203,Digital Marketer,"PPC, Google Ads, Google Analytics",9 years
+Person 204,Data Scientist,"Data Visualization, NumPy, Deep Learning",8 years
+Person 205,Data Scientist,"Python, SQL, Deep Learning",3 years
+Person 206,Mechanic,"Manual Tools, Engine Repair, Vehicle Maintenance",9 years
+Person 207,Web Developer,"Vue.js, React, REST APIs",1 years
+Person 208,Web Developer,"Vue.js, Node.js, SQL",5 years
+Person 209,Chef,"Food Safety, Cooking, Knife Skills",4 years
+Person 210,Digital Marketer,"PPC, Google Analytics, Social Media Marketing",10 years
+Person 211,Software Engineer,"Kubernetes, Java, Docker",5 years
+Person 212,Legal Advisor,"Contract Law, Legal Writing, Negotiation",10 years
+Person 213,Product Manager,"Data Analysis, Agile, Communication",2 years
+Person 214,Digital Marketer,"Email Marketing, PPC, Brand Strategy",2 years
+Person 215,Nurse,"Medical Terminology, Patient Care, Patient Assessment",9 years
+Person 216,Teacher,"Student Assessment, Communication, Curriculum Design",5 years
+Person 217,Graphic Designer,"UI/UX Design, Creativity, Color Theory",5 years
+Person 218,Teacher,"Pedagogy, Lesson Planning, Education Technology",6 years
+Person 219,HR Manager,"Performance Management, Employee Relations, Recruitment",5 years
+Person 220,Content Writer,"Creative Writing, Writing, Editing",4 years
+Person 221,Graphic Designer,"Adobe Photoshop, InDesign, Sketch",8 years
+Person 222,Chef,"Time Management, Food Presentation, Teamwork",8 years
+Person 223,Legal Advisor,"Contract Law, Legal Research, Document Drafting",8 years
+Person 224,Digital Marketer,"Social Media Marketing, Brand Strategy, PPC",5 years
+Person 225,Financial Analyst,"Budgeting, QuickBooks, Accounting",1 years
+Person 226,Nurse,"Medical Terminology, Patient Care, Critical Thinking",7 years
+Person 227,Financial Analyst,"Excel, Forecasting, Financial Modeling",3 years
+Person 228,HR Manager,"Employee Relations, HR Software, Performance Management",7 years
+Person 229,Digital Marketer,"Email Marketing, SEO, PPC",4 years
+Person 230,Electrician,"Safety Procedures, Blueprint Reading, Circuitry",4 years
+Person 231,Content Writer,"Content Strategy, Research, Editing",9 years
+Person 232,Web Developer,"Vue.js, Git, CSS",4 years
+Person 233,Legal Advisor,"Contract Law, Compliance, Legal Writing",3 years
+Person 234,Content Writer,"Creative Writing, Research, Content Strategy",6 years
+Person 235,Data Scientist,"SQL, NumPy, Machine Learning",9 years
+Person 236,Mechanic,"Diagnostics, Blueprint Reading, Vehicle Maintenance",3 years
+Person 237,Electrician,"Circuitry, Safety Procedures, Wiring",4 years
+Person 238,Teacher,"Communication, Education Technology, Classroom Management",3 years
+Person 239,Product Manager,"Data Analysis, UX/UI, Roadmap Planning",4 years
+Person 240,Software Engineer,"Agile, Kubernetes, Cloud Computing",5 years
+Person 241,Nurse,"Patient Care, Pharmaceutical Knowledge, Medical Terminology",4 years
+Person 242,Software Engineer,"Git, SQL, C++",6 years
+Person 243,Financial Analyst,"QuickBooks, Budgeting, Accounting",7 years
+Person 244,Software Engineer,"SQL, Docker, Python",7 years
+Person 245,HR Manager,"Performance Management, Communication, Training",6 years
+Person 246,Nurse,"Patient Care, Critical Thinking, Pharmaceutical Knowledge",9 years
+Person 247,Mechanic,"Vehicle Maintenance, Problem Solving, Manual Tools",10 years
+Person 248,Chef,"Food Presentation, Food Safety, Creativity",1 years
+Person 249,Project Manager,"Stakeholder Management, Project Planning, Agile",4 years
+Person 250,Web Developer,"Node.js, HTML, React",4 years
+Person 251,Mechanic,"Diagnostics, Safety Procedures, Blueprint Reading",1 years
+Person 252,Financial Analyst,"Forecasting, Data Analysis, Financial Modeling",10 years
+Person 253,Project Manager,"Time Management, Agile, Team Management",4 years
+Person 254,HR Manager,"Employee Relations, Organizational Development, Labor Laws",4 years
+Person 255,Chef,"Food Safety, Teamwork, Food Presentation",7 years
+Person 256,Financial Analyst,"QuickBooks, Financial Modeling, Excel",10 years
+Person 257,Electrician,"Blueprint Reading, Wiring, Troubleshooting",3 years
+Person 258,Customer Support,"Problem Solving, Customer Service, Communication",3 years
+Person 259,Electrician,"Circuitry, Wiring, Problem Solving",5 years
+Person 260,Chef,"Cooking, Knife Skills, Food Presentation",8 years
+Person 261,Nurse,"Patient Care, Teamwork, Pharmaceutical Knowledge",3 years
+Person 262,Teacher,"Classroom Management, Education Technology, Curriculum Design",7 years
+Person 263,Marketing Manager,"SEO, Brand Management, Marketing Strategy",5 years
+Person 264,Legal Advisor,"Negotiation, Litigation, Legal Research",5 years
+Person 265,Teacher,"Curriculum Design, Student Assessment, Pedagogy",7 years
+Person 266,Chef,"Food Presentation, Cooking, Creativity",1 years
+Person 267,Digital Marketer,"PPC, Brand Strategy, Google Ads",4 years
+Person 268,Chef,"Menu Planning, Food Presentation, Time Management",6 years
+Person 269,Software Engineer,"Python, C++, Docker",10 years
+Person 270,Legal Advisor,"Negotiation, Legal Writing, Corporate Law",9 years
+Person 271,Project Manager,"Project Planning, Stakeholder Management, Communication",2 years
+Person 272,Digital Marketer,"SEO, PPC, Google Ads",10 years
+Person 273,Marketing Manager,"Marketing Strategy, Email Marketing, PPC",4 years
+Person 274,Nurse,"Pharmaceutical Knowledge, Clinical Skills, Teamwork",7 years
+Person 275,Content Writer,"Writing, Content Strategy, Blogging",10 years
+Person 276,HR Manager,"Performance Management, Training, Communication",4 years
+Person 277,Digital Marketer,"Google Analytics, SEO, Email Marketing",4 years
+Person 278,Project Manager,"Project Planning, Risk Management, Communication",8 years
+Person 279,Data Scientist,"R, SQL, Pandas",8 years
+Person 280,Sales Manager,"Negotiation, Customer Acquisition, CRM",3 years
+Person 281,Content Writer,"Creative Writing, Proofreading, Writing",4 years
+Person 282,Data Scientist,"TensorFlow, Data Visualization, NumPy",10 years
+Person 283,Marketing Manager,"Social Media Marketing, Marketing Strategy, Content Marketing",6 years
+Person 284,Product Manager,"Data Analysis, Market Research, Agile",5 years
+Person 285,HR Manager,"Training, Labor Laws, Performance Management",6 years
+Person 286,Marketing Manager,"Content Marketing, PPC, Market Research",3 years
+Person 287,Marketing Manager,"Social Media Marketing, PPC, SEO",9 years
+Person 288,Web Developer,"Node.js, React, REST APIs",4 years
+Person 289,Data Scientist,"Deep Learning, Statistics, SQL",3 years
+Person 290,Content Writer,"Writing, SEO, Creative Writing",7 years
+Person 291,Legal Advisor,"Legal Research, Contract Law, Compliance",7 years
+Person 292,HR Manager,"Performance Management, Recruitment, Training",8 years
+Person 293,HR Manager,"Labor Laws, Performance Management, Organizational Development",4 years
+Person 294,Mechanic,"Vehicle Maintenance, Diagnostics, Problem Solving",4 years
+Person 295,Chef,"Menu Planning, Teamwork, Food Presentation",8 years
+Person 296,Financial Analyst,"Accounting, Budgeting, Data Analysis",7 years
+Person 297,Web Developer,"React, Node.js, JavaScript",1 years
+Person 298,Project Manager,"Stakeholder Management, Team Management, Project Planning",5 years
+Person 299,HR Manager,"Labor Laws, Employee Relations, Recruitment",9 years
+Person 300,Electrician,"Troubleshooting, Wiring, Electrical Codes",2 years
+Person 301,Web Developer,"JavaScript, Vue.js, Express",6 years
+Person 302,Financial Analyst,"Budgeting, Financial Modeling, Power BI",6 years
+Person 303,Graphic Designer,"InDesign, Figma, Adobe Illustrator",8 years
+Person 304,Graphic Designer,"Sketch, InDesign, Figma",10 years
+Person 305,Legal Advisor,"Document Drafting, Litigation, Compliance",2 years
+Person 306,Sales Manager,"Market Research, Customer Acquisition, Client Relationships",9 years
+Person 307,Financial Analyst,"Data Analysis, Power BI, Forecasting",5 years
+Person 308,Sales Manager,"CRM, Negotiation, Team Leadership",9 years
+Person 309,HR Manager,"Employee Relations, Performance Management, Organizational Development",8 years
+Person 310,Graphic Designer,"Creativity, Color Theory, InDesign",1 years
+Person 311,HR Manager,"Performance Management, Training, Communication",6 years
+Person 312,Project Manager,"Team Management, Project Planning, Risk Management",10 years
+Person 313,Chef,"Time Management, Teamwork, Knife Skills",9 years
+Person 314,Teacher,"Classroom Management, Student Assessment, Communication",2 years
+Person 315,Sales Manager,"Team Leadership, Market Research, Sales Strategy",7 years
+Person 316,Graphic Designer,"Creativity, Color Theory, Sketch",4 years
+Person 317,Data Scientist,"Pandas, TensorFlow, Statistics",2 years
+Person 318,Marketing Manager,"PPC, Content Marketing, Market Research",6 years
+Person 319,Project Manager,"Communication, Team Management, Time Management",6 years
+Person 320,Product Manager,"Communication, UX/UI, Market Research",7 years
+Person 321,Chef,"Creativity, Menu Planning, Time Management",10 years
+Person 322,Legal Advisor,"Contract Law, Corporate Law, Negotiation",10 years
+Person 323,Sales Manager,"Negotiation, Team Leadership, Client Relationships",10 years
+Person 324,Content Writer,"Creative Writing, Blogging, Editing",3 years
+Person 325,Product Manager,"Agile, Data Analysis, Communication",9 years
+Person 326,Digital Marketer,"Google Analytics, Social Media Marketing, Content Creation",5 years
+Person 327,Graphic Designer,"Color Theory, InDesign, UI/UX Design",10 years
+Person 328,Mechanic,"Blueprint Reading, Problem Solving, Diagnostics",2 years
+Person 329,Marketing Manager,"Brand Management, Market Research, Marketing Strategy",8 years
+Person 330,Chef,"Food Safety, Food Presentation, Creativity",3 years
+Person 331,Software Engineer,"Docker, Kubernetes, Cloud Computing",10 years
+Person 332,Product Manager,"Communication, Leadership, Market Research",3 years
+Person 333,Web Developer,"Vue.js, React, Node.js",3 years
+Person 334,Data Scientist,"Deep Learning, Machine Learning, Data Visualization",9 years
+Person 335,Web Developer,"Express, React, CSS",8 years
+Person 336,Mechanic,"Blueprint Reading, Engine Repair, Problem Solving",9 years
+Person 337,Mechanic,"Blueprint Reading, Engine Repair, Vehicle Maintenance",9 years
+Person 338,Chef,"Knife Skills, Food Presentation, Food Safety",1 years
+Person 339,Web Developer,"Git, Express, JavaScript",9 years
+Person 340,Sales Manager,"Team Leadership, Customer Acquisition, Market Research",4 years
+Person 341,Web Developer,"REST APIs, Express, JavaScript",4 years
+Person 342,Nurse,"Teamwork, Critical Thinking, Patient Care",10 years
+Person 343,Marketing Manager,"Email Marketing, PPC, Marketing Strategy",4 years
+Person 344,HR Manager,"Performance Management, HR Software, Labor Laws",1 years
+Person 345,Data Scientist,"NumPy, Deep Learning, Statistics",10 years
+Person 346,Marketing Manager,"Email Marketing, PPC, Market Research",10 years
+Person 347,Financial Analyst,"Budgeting, QuickBooks, Financial Modeling",10 years
+Person 348,Customer Support,"Customer Service, Time Management, CRM Software",4 years
+Person 349,Digital Marketer,"PPC, Email Marketing, Content Creation",3 years
+Person 350,HR Manager,"Training, Labor Laws, Recruitment",7 years
+Person 351,Mechanic,"Diagnostics, Vehicle Maintenance, Blueprint Reading",5 years
+Person 352,Digital Marketer,"Email Marketing, Google Ads, Brand Strategy",9 years
+Person 353,Legal Advisor,"Legal Writing, Document Drafting, Contract Law",7 years
+Person 354,Financial Analyst,"Forecasting, Financial Modeling, Data Analysis",10 years
+Person 355,Software Engineer,"SQL, C++, Java",10 years
+Person 356,Project Manager,"Team Management, Risk Management, Communication",8 years
+Person 357,Sales Manager,"Sales Strategy, CRM, Customer Acquisition",3 years
+Person 358,Content Writer,"Research, Content Strategy, Proofreading",7 years
+Person 359,Sales Manager,"Customer Acquisition, CRM, Sales Strategy",6 years
+Person 360,HR Manager,"Communication, Training, Employee Relations",5 years
+Person 361,Content Writer,"Writing, Research, Creative Writing",5 years
+Person 362,Content Writer,"Research, SEO, Blogging",2 years
+Person 363,Legal Advisor,"Litigation, Legal Writing, Corporate Law",1 years
+Person 364,Data Scientist,"TensorFlow, Python, Data Visualization",5 years
+Person 365,Chef,"Teamwork, Food Presentation, Time Management",2 years
+Person 366,Software Engineer,"Python, C++, SQL",6 years
+Person 367,Financial Analyst,"SQL, Financial Modeling, Excel",2 years
+Person 368,Teacher,"Communication, Education Technology, Lesson Planning",1 years
+Person 369,HR Manager,"Employee Relations, Training, Organizational Development",8 years
+Person 370,Teacher,"Pedagogy, Communication, Student Assessment",9 years
+Person 371,Chef,"Cooking, Knife Skills, Time Management",4 years
+Person 372,Digital Marketer,"Email Marketing, SEO, Brand Strategy",9 years
+Person 373,Teacher,"Curriculum Design, Student Assessment, Education Technology",2 years
+Person 374,Data Scientist,"TensorFlow, Machine Learning, Python",4 years
+Person 375,Mechanic,"Engine Repair, Blueprint Reading, Safety Procedures",7 years
+Person 376,Sales Manager,"Team Leadership, Client Relationships, Customer Acquisition",8 years
+Person 377,Financial Analyst,"Accounting, Forecasting, Data Analysis",7 years
+Person 378,Sales Manager,"Sales Strategy, CRM, Team Leadership",2 years
+Person 379,Product Manager,"Market Research, Product Development, Communication",4 years
+Person 380,Financial Analyst,"Forecasting, Budgeting, Financial Modeling",1 years
+Person 381,Data Scientist,"SQL, Python, Machine Learning",3 years
+Person 382,Graphic Designer,"Creativity, Adobe Illustrator, Figma",8 years
+Person 383,Content Writer,"Proofreading, Blogging, SEO",1 years
+Person 384,HR Manager,"Employee Relations, Performance Management, Training",7 years
+Person 385,Data Scientist,"Statistics, Python, SQL",4 years
+Person 386,HR Manager,"Communication, Recruitment, HR Software",1 years
+Person 387,Nurse,"Teamwork, Critical Thinking, Medical Terminology",7 years
+Person 388,Software Engineer,"Docker, Git, JavaScript",7 years
+Person 389,Marketing Manager,"PPC, SEO, Brand Management",4 years
+Person 390,Mechanic,"Manual Tools, Blueprint Reading, Engine Repair",10 years
+Person 391,Graphic Designer,"Figma, Sketch, UI/UX Design",7 years
+Person 392,Graphic Designer,"UI/UX Design, Creativity, Adobe Photoshop",1 years
+Person 393,Sales Manager,"Team Leadership, Market Research, CRM",9 years
+Person 394,Product Manager,"Leadership, Data Analysis, Agile",9 years
+Person 395,Product Manager,"Data Analysis, Communication, Agile",6 years
+Person 396,Financial Analyst,"QuickBooks, Power BI, SQL",1 years
+Person 397,Sales Manager,"Customer Acquisition, Negotiation, Market Research",8 years
+Person 398,Legal Advisor,"Corporate Law, Legal Research, Compliance",10 years
+Person 399,Data Scientist,"R, Machine Learning, NumPy",5 years
+Person 400,Software Engineer,"Git, Kubernetes, C++",9 years
+Person 401,Graphic Designer,"Adobe Photoshop, Figma, Adobe Illustrator",5 years
+Person 402,Data Scientist,"R, SQL, NumPy",10 years
+Person 403,Digital Marketer,"SEO, Social Media Marketing, Google Analytics",9 years
+Person 404,Sales Manager,"Negotiation, Team Leadership, Client Relationships",1 years
+Person 405,HR Manager,"Organizational Development, HR Software, Training",3 years
+Person 406,Content Writer,"Content Strategy, Writing, Proofreading",10 years
+Person 407,Sales Manager,"Market Research, Team Leadership, Negotiation",2 years
+Person 408,Data Scientist,"Statistics, NumPy, SQL",9 years
+Person 409,Web Developer,"JavaScript, SQL, HTML",8 years
+Person 410,Customer Support,"CRM Software, Problem Solving, Time Management",2 years
+Person 411,Mechanic,"Problem Solving, Safety Procedures, Engine Repair",2 years
+Person 412,Teacher,"Lesson Planning, Education Technology, Classroom Management",6 years
+Person 413,Financial Analyst,"Budgeting, Forecasting, Financial Modeling",4 years
+Person 414,Mechanic,"Engine Repair, Diagnostics, Blueprint Reading",10 years
+Person 415,Product Manager,"Agile, UX/UI, Roadmap Planning",3 years
+Person 416,Nurse,"Clinical Skills, Critical Thinking, Medical Terminology",5 years
+Person 417,Teacher,"Curriculum Design, Student Assessment, Pedagogy",10 years
+Person 418,Web Developer,"Node.js, SQL, React",3 years
+Person 419,Web Developer,"REST APIs, HTML, SQL",2 years
+Person 420,Chef,"Knife Skills, Teamwork, Menu Planning",7 years
+Person 421,Web Developer,"SQL, React, REST APIs",6 years
+Person 422,Electrician,"Troubleshooting, Wiring, Problem Solving",2 years
+Person 423,Product Manager,"Leadership, Market Research, Agile",4 years
+Person 424,HR Manager,"Training, HR Software, Labor Laws",4 years
+Person 425,Software Engineer,"Java, Cloud Computing, Agile",4 years
+Person 426,Project Manager,"Risk Management, Project Planning, Budgeting",7 years
+Person 427,Mechanic,"Engine Repair, Vehicle Maintenance, Safety Procedures",1 years
+Person 428,Digital Marketer,"PPC, Google Ads, Brand Strategy",9 years
+Person 429,Legal Advisor,"Compliance, Corporate Law, Negotiation",3 years
+Person 430,Nurse,"Patient Assessment, Critical Thinking, Medical Terminology",5 years
+Person 431,Sales Manager,"Client Relationships, Team Leadership, Sales Strategy",3 years
+Person 432,Project Manager,"Risk Management, Stakeholder Management, Project Planning",7 years
+Person 433,Graphic Designer,"Adobe Photoshop, Figma, UI/UX Design",10 years
+Person 434,Mechanic,"Manual Tools, Diagnostics, Safety Procedures",10 years
+Person 435,Data Scientist,"Machine Learning, Statistics, SQL",8 years
+Person 436,Content Writer,"SEO, Blogging, Writing",10 years
+Person 437,Legal Advisor,"Contract Law, Corporate Law, Negotiation",7 years
+Person 438,Digital Marketer,"Email Marketing, Brand Strategy, Google Ads",7 years
+Person 439,Financial Analyst,"Power BI, QuickBooks, SQL",6 years
+Person 440,Marketing Manager,"Marketing Strategy, Email Marketing, Brand Management",6 years
+Person 441,Chef,"Cooking, Teamwork, Food Safety",9 years
+Person 442,Project Manager,"Time Management, Communication, Team Management",3 years
+Person 443,Legal Advisor,"Document Drafting, Legal Research, Legal Writing",4 years
+Person 444,Sales Manager,"Customer Acquisition, CRM, Market Research",6 years
+Person 445,Content Writer,"Editing, Content Strategy, Creative Writing",7 years
+Person 446,Software Engineer,"Agile, Kubernetes, JavaScript",8 years
+Person 447,Software Engineer,"Cloud Computing, Java, SQL",6 years
+Person 448,Content Writer,"Research, Editing, SEO",7 years
+Person 449,Chef,"Food Presentation, Cooking, Creativity",7 years
+Person 450,Digital Marketer,"Content Creation, Email Marketing, Social Media Marketing",1 years
+Person 451,Project Manager,"Stakeholder Management, Time Management, Communication",4 years
+Person 452,Sales Manager,"Client Relationships, Negotiation, Sales Strategy",9 years
+Person 453,Financial Analyst,"Data Analysis, Budgeting, QuickBooks",2 years
+Person 454,Web Developer,"React, Git, REST APIs",1 years
+Person 455,Project Manager,"Budgeting, Agile, Stakeholder Management",7 years
+Person 456,Software Engineer,"Agile, Python, Cloud Computing",7 years
+Person 457,HR Manager,"Labor Laws, Training, Communication",6 years
+Person 458,Teacher,"Student Assessment, Communication, Lesson Planning",8 years
+Person 459,Software Engineer,"JavaScript, Kubernetes, SQL",4 years
+Person 460,Product Manager,"Agile, Market Research, Communication",2 years
+Person 461,Digital Marketer,"PPC, Social Media Marketing, Google Ads",8 years
+Person 462,Project Manager,"Stakeholder Management, Risk Management, Time Management",3 years
+Person 463,Data Scientist,"NumPy, Statistics, R",6 years
+Person 464,Project Manager,"Team Management, Risk Management, Agile",5 years
+Person 465,Software Engineer,"Docker, Kubernetes, Agile",5 years
+Person 466,Customer Support,"Time Management, Empathy, Communication",2 years
+Person 467,Graphic Designer,"Figma, Adobe Illustrator, Sketch",6 years
+Person 468,Nurse,"Patient Care, Pharmaceutical Knowledge, Critical Thinking",8 years
+Person 469,Graphic Designer,"Adobe Photoshop, Color Theory, Creativity",7 years
+Person 470,Electrician,"Wiring, Circuitry, Problem Solving",10 years
+Person 471,Graphic Designer,"Color Theory, Sketch, Adobe Photoshop",8 years
+Person 472,Customer Support,"Problem Solving, Communication, Time Management",5 years
+Person 473,Data Scientist,"NumPy, Data Visualization, Deep Learning",4 years
+Person 474,Software Engineer,"Kubernetes, Cloud Computing, Docker",7 years
+Person 475,Customer Support,"CRM Software, Customer Service, Problem Solving",1 years
+Person 476,Legal Advisor,"Compliance, Legal Research, Litigation",3 years
+Person 477,Customer Support,"Customer Service, Problem Solving, Communication",1 years
+Person 478,Project Manager,"Risk Management, Agile, Time Management",10 years
+Person 479,Digital Marketer,"SEO, Content Creation, Google Analytics",4 years
+Person 480,HR Manager,"Communication, Training, HR Software",2 years
+Person 481,Electrician,"Blueprint Reading, Electrical Codes, Wiring",6 years
+Person 482,Software Engineer,"Python, Cloud Computing, C++",9 years
+Person 483,Chef,"Time Management, Creativity, Food Presentation",2 years
+Person 484,Mechanic,"Engine Repair, Problem Solving, Vehicle Maintenance",10 years
+Person 485,Data Scientist,"R, Deep Learning, Statistics",10 years
+Person 486,HR Manager,"Employee Relations, Performance Management, Recruitment",1 years
+Person 487,Marketing Manager,"PPC, Email Marketing, Brand Management",4 years
+Person 488,Nurse,"Critical Thinking, Patient Care, Patient Assessment",4 years
+Person 489,Electrician,"Circuitry, Problem Solving, Troubleshooting",10 years
+Person 490,Teacher,"Pedagogy, Lesson Planning, Classroom Management",4 years
+Person 491,Electrician,"Electrical Codes, Troubleshooting, Problem Solving",10 years
+Person 492,Project Manager,"Stakeholder Management, Time Management, Risk Management",2 years
+Person 493,Mechanic,"Engine Repair, Safety Procedures, Blueprint Reading",9 years
+Person 494,Legal Advisor,"Legal Writing, Corporate Law, Document Drafting",3 years
+Person 495,Electrician,"Electrical Codes, Safety Procedures, Problem Solving",6 years
+Person 496,Product Manager,"Agile, Data Analysis, Market Research",1 years
+Person 497,Sales Manager,"Customer Acquisition, Team Leadership, CRM",8 years
+Person 498,HR Manager,"Organizational Development, Employee Relations, Recruitment",1 years
+Person 499,Legal Advisor,"Compliance, Legal Writing, Negotiation",4 years
+Person 500,Web Developer,"CSS, Vue.js, SQL",1 years

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Posted</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'jobpostings/styles.css' %}">
+</head>
+<body>
+    <h2>Your job has been posted successfully!</h2>
+    <p>Thank you for posting the job. Here are some recommended candidates:</p>
+
+    {% if recommended_applicants %}
+        <ul>
+            {% for applicant in recommended_applicants %}
+                <li>
+                    <strong>{{ applicant.Name }}</strong><br>
+                    Job Title: {{ applicant.Job_Title }}<br> <!-- Updated field name -->
+                    Skills: {{ applicant.Skills }}<br>
+                    Experience: {{ applicant.Experience }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No recommendations found based on your job posting criteria.</p>
+    {% endif %}
+
+    <!-- Back Button -->
+    <a href="{% url 'post-job' %}">
+        <button>Back to Post Job</button>
+    </a>
+</body>
+</html>
