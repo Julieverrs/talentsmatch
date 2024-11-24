@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - View Job Postings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+        .delete-button {
+            padding: 5px 10px;
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .delete-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>All Job Postings</h1>
+        
+        {% if job_postings %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Required Skills</th>
+                        <th>Experience Level</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for job in job_postings %}
+                        <tr>
+                            <td>{{ job.title }}</td>
+                            <td>{{ job.description }}</td>
+                            <td>{{ job.required_skills }}</td>
+                            <td>{{ job.experience_level }}</td>
+                            <td>
+                                <form action="{% url 'delete-job' job.id %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="delete-button">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No job postings available.</p>
+        {% endif %}
+        
+        <a href="{% url 'post-job' %}" class="back-button">Back to Post Job</a>
+    </div>
+</body>
+</html>

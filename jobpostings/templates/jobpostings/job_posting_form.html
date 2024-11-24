@@ -1,16 +1,279 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Post a Job</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job | Professional Job Board</title>
     {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'jobpostings/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            font-family: 'Poppins', sans-serif;
+            background: #f3f4f6; /* Light background for overall contrast */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Container */
+        .form-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1000px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Left Section (Form) */
+        .form-left {
+            padding: 40px;
+            background: #f9fafb;
+        }
+
+        .form-header h2 {
+            font-size: 2rem;
+            color: #3b82f6; /* Blue for a vibrant touch */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 1rem;
+            color: #555;
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        input[type="text"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 1rem;
+            color: #333;
+            background: #f9f9f9;
+            transition: border-color 0.3s, background 0.3s;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus,
+        select:focus {
+            border-color: #3b82f6;
+            background: #ffffff;
+            outline: none;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-footer button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #3b82f6, #2563eb); /* Softer gradient */
+            color: #fff;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .form-footer button:hover {
+            background: linear-gradient(90deg, #2563eb, #1e40af);
+            transform: translateY(-3px);
+        }
+
+        .form-footer button:active {
+            transform: translateY(2px);
+        }
+
+        /* Right Section (Illustration) */
+        .form-right {
+            background: #f3f4f6;
+            color: #333;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            overflow: hidden;
+        }
+
+        .form-right-content {
+            text-align: center;
+            z-index: 2;
+        }
+
+        .form-right-content h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #3b82f6;
+        }
+
+        .form-right-content p {
+            font-size: 1rem;
+            opacity: 0.8;
+            color: #555;
+        }
+
+        .form-right img {
+            position: absolute;
+            width: 120%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skill-item {
+            background: #3b82f6;
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+
+        .skill-item:hover {
+            transform: scale(1.1);
+        }
+
+        .skill-item button {
+            background: transparent;
+            color: #ef4444;
+            border: none;
+            margin-left: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .form-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .form-right {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h2>Post a Job</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Post Job</button>
-    </form>
+    <div class="form-wrapper">
+        <!-- Left Section -->
+        <div class="form-left">
+            <div class="form-header">
+                <h2>Post a Job</h2>
+            </div>
+            <form method="post" id="job-posting-form">
+                {% csrf_token %}
+
+                <!-- Job Title -->
+                <label for="id_title">{{ form.title.label }}</label>
+                {{ form.title }}
+
+                <!-- Job Description -->
+                <label for="id_description">{{ form.description.label }}</label>
+                {{ form.description }}
+
+                <!-- Experience Level -->
+                <label for="id_experience_level">{{ form.experience_level.label }}</label>
+                {{ form.experience_level }}
+
+                <!-- Required Skills -->
+                <label for="required-skills">Required Skills:</label>
+                <input type="text" id="skill-input" placeholder="Type a skill and press Enter">
+                <div class="skills-container" id="skills-container"></div>
+                <input type="hidden" name="required_skills" id="required-skills">
+
+                <!-- Submit Button -->
+                <div class="form-footer">
+                    <button type="submit">Post Job</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Right Section -->
+        <div class="form-right">
+            <div class="form-right-content">
+                <h2>Find Top Talent</h2>
+                <p>Connect with professionals from around the globe.</p>
+            </div>
+            <img src="{% static 'images/rocket-launch.svg' %}" alt="Rocket Illustration">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const skillInput = document.getElementById('skill-input');
+            const skillsContainer = document.getElementById('skills-container');
+            const hiddenInput = document.getElementById('required-skills');
+            let skillsArray = [];
+
+            skillInput.addEventListener('keypress', function (e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const skill = skillInput.value.trim();
+                    if (skill && !skillsArray.includes(skill)) {
+                        skillsArray.push(skill);
+                        updateSkillsContainer();
+                        skillInput.value = '';
+                    }
+                }
+            });
+
+            function updateSkillsContainer() {
+                hiddenInput.value = skillsArray.join(',');
+                skillsContainer.innerHTML = '';
+                skillsArray.forEach(skill => {
+                    const skillItem = document.createElement('div');
+                    skillItem.className = 'skill-item';
+                    skillItem.textContent = skill;
+
+                    const removeButton = document.createElement('button');
+                    removeButton.textContent = '×';
+                    removeButton.addEventListener('click', () => {
+                        skillsArray = skillsArray.filter(s => s !== skill);
+                        updateSkillsContainer();
+                    });
+
+                    skillItem.appendChild(removeButton);
+                    skillsContainer.appendChild(skillItem);
+                });
+            }
+        });
+    </script>
 </body>
 </html>

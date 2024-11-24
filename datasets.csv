@@ -1,83 +1,501 @@
-name,skills,experience
-John Doe,Python;Django;SQL,3 years
-Jane Smith,JavaScript;React;HTML,2 years
-Alice Johnson,Java;Spring Boot;Kotlin,4 years
-Bob Brown,Python;Flask;Machine Learning,1 year
-Emily White,Graphic Design;Adobe Illustrator;Photoshop,5 years
-Michael Green,Project Management;Scrum;Agile,6 years
-Sophia Lee,Digital Marketing;SEO;Google Ads,3 years
-William King,Data Analysis;Excel;Tableau,4 years
-Isabella Carter,Customer Service;CRM;Problem Solving,2 years
-James Moore,C++;Embedded Systems;IoT,5 years
-Liam Scott,Full Stack Development;Node.js;Vue.js,3 years
-Olivia Evans,Financial Planning;Accounting;Budget Management,7 years
-Noah Brown,Mobile Development;Swift;Xcode,4 years
-Emma Wilson,Technical Writing;Documentation;API Writing,3 years
-Lucas Johnson,Network Security;Firewalls;Penetration Testing,5 years
-Mia Martinez,Cloud Computing;AWS;DevOps,4 years
-Ethan Davis,Mechanical Engineering;AutoCAD;SolidWorks,6 years
-Amelia Robinson,HR Management;Recruitment;Employee Training,5 years
-Charlotte Lewis,Supply Chain Management;Logistics;SAP,4 years
-Benjamin White,Electrical Engineering;Circuit Design;Microcontrollers,3 years
-Hannah Hall,Teaching;Curriculum Development;Classroom Management,8 years
-Mason Allen,Sales;Negotiation;Lead Generation,2 years
-Ella Adams,UX/UI Design;Figma;Prototyping,3 years
-Samuel Turner,Content Creation;Video Editing;Social Media Management,2 years
-Ava Parker,Healthcare;Nursing;Patient Care,5 years
-Jack Young,Law;Contract Drafting;Litigation,6 years
-Chloe Ramirez,Interior Design;3D Modeling;SketchUp,4 years
-Daniel Harris,Research;Data Collection;Statistical Analysis,5 years
-Zoe Brooks,Cybersecurity;Ethical Hacking;Encryption,3 years
-Henry Ross,Robotics;Arduino;Python,4 years
-Liam Bennett,Cloud Computing;Azure;Kubernetes,5 years
-Sophia Murphy,Machine Learning;TensorFlow;Python,3 years
-Jackson Campbell,Product Management;User Research;MVP Development,4 years
-Ava Simmons,Customer Success;Feedback Analysis;Account Management,3 years
-Jacob Stewart,Database Administration;SQL;NoSQL,5 years
-Mia Hughes,Mobile Development;React Native;JavaScript,2 years
-Carter Peterson,Accounting;Tax Preparation;Financial Auditing,7 years
-Harper Bailey,Event Planning;Vendor Management;Budget Planning,4 years
-Andrew Bell,Web Development;HTML;CSS,1 year
-Victoria Cooper,HR Consulting;Employee Relations;Compliance,6 years
-Thomas Diaz,Software Engineering;C;Debugging,3 years
-Elizabeth Morgan,Sales Management;Cold Calling;Salesforce,4 years
-Ryan Griffin,Automation Testing;Selenium;JUnit,5 years
-Abigail Sanders,Graphic Design;Adobe XD;Branding,2 years
-Dylan Reed,Full Stack Development;Angular;MongoDB,4 years
-Madison Ortiz,Data Science;R Programming;Big Data Analysis,5 years
-Oliver Price,Penetration Testing;Vulnerability Scanning;Security Auditing,3 years
-Natalie Foster,Social Media Strategy;Content Scheduling;Instagram Marketing,2 years
-Wyatt Phillips,Mechanical Drafting;Blueprints;3D Printing,6 years
-Samantha Ward,Supply Chain Optimization;Inventory Management;ERP Systems,3 years
-Alexander Howard,Legal Research;Case Law;Contract Negotiation,8 years
-Grace Hughes,Digital Illustration;Sketching;Vector Art,4 years
-Sebastian Moore,IT Support;Troubleshooting;Windows Server,3 years
-Nora Hall,Public Relations;Press Releases;Media Outreach,4 years
-Joseph Butler,Mobile UI Design;User Testing;Wireframing,3 years
-Lillian Bennett,HR Administration;Payroll;Employee Benefits,5 years
-Anthony Watson,Network Engineering;Cisco Routers;LAN/WAN,6 years
-Mila Carter,3D Animation;Blender;Maya,2 years
-Gabriel Foster,Chemical Engineering;Process Design;Safety Protocols,7 years
-Chloe James,Content Marketing;Copywriting;SEO Optimization,3 years
-Aaron Torres,Web Design;CSS;Responsive Layouts,2 years
-Layla Cooper,Financial Analysis;Forecasting;Risk Management,5 years
-Brandon Martinez,Game Development;Unity;C#,4 years
-Ella Perry,Customer Insights;Market Research;Trend Analysis,3 years
-Hunter Rivera,Electrical Installation;Power Systems;HVAC,6 years
-Scarlett Griffin,Brand Strategy;Influencer Marketing;Campaign Planning,4 years
-Jonathan Carter,CAD Design;Inventor;Manufacturing Processes,5 years
-Victoria King,Public Health;Community Outreach;Data Reporting,6 years
-Christopher Bell,Software Testing;Bug Tracking;Automation,4 years
-Zoe Lopez,UI/UX Research;A/B Testing;Usability Analysis,2 years
-Lucas Sanchez,Event Coordination;Scheduling;Vendor Negotiation,3 years
-Mia Long,Corporate Training;Workshops;Performance Coaching,7 years
-James Brooks,Technical Support;Help Desk;Hardware Configuration,4 years
-Emily Murphy,Business Analysis;Requirement Gathering;Workflow Analysis,5 years
-Daniel Cox,Cybersecurity Strategy;Incident Response;SIEM Tools,4 years
-Sophia Stewart,Marketing Analytics;Data Visualization;Survey Tools,2 years
-Nolan Evans,Field Sales;Client Pitches;Territory Management,3 years
-Aubrey Flores,Legal Writing;Brief Preparation;Research Memorandums,6 years
-Hannah Jenkins,Content Management;Joomla;WordPress,2 years
-Mason Ross,DevOps Engineering;Continuous Integration;Terraform,4 years
-
-# (Expand this pattern to reach a total of 300 entries)
+Name,Job_Title,Skills,Experience
+Mia Thomas,Nurse,"Patient Assessment, Medical Terminology, Pharmaceutical Knowledge",8
+Liam Smith,Software Engineer,"SQL, Cloud Computing, Docker",8
+Ethan White,Graphic Designer,"Sketch, InDesign, Adobe Illustrator",8
+Ava Wilson,Teacher,"Lesson Planning, Education Technology, Communication",9
+Isabella Martin,Software Engineer,"Python, Kubernetes, Docker",1
+Isabella Martin,Web Developer,"React, HTML, SQL",2
+Charlotte Thompson,Content Writer,"Content Strategy, Blogging, Writing",3
+Sophia Taylor,Electrician,"Safety Procedures, Troubleshooting, Blueprint Reading",2
+Isabella Martin,Financial Analyst,"Data Analysis, Forecasting, Budgeting",8
+Charlotte Thompson,Teacher,"Communication, Education Technology, Curriculum Design",8
+Harper Harris,Project Manager,"Communication, Team Management, Budgeting",10
+Noah Davis,Financial Analyst,"Financial Modeling, Budgeting, Accounting",5
+Isabella Martin,Project Manager,"Agile, Risk Management, Budgeting",3
+Harper Harris,Sales Manager,"Customer Acquisition, Sales Strategy, Negotiation",3
+Lucas Anderson,Graphic Designer,"Creativity, Sketch, Figma",1
+Harper Harris,Software Engineer,"Cloud Computing, C++, Python",3
+Sophia Taylor,Teacher,"Communication, Lesson Planning, Classroom Management",5
+Elijah Moore,HR Manager,"Communication, Organizational Development, Recruitment",3
+Liam Smith,Customer Support,"CRM Software, Problem Solving, Customer Service",4
+Emma Johnson,Financial Analyst,"Financial Modeling, Budgeting, SQL",9
+Olivia Brown,Electrician,"Safety Procedures, Troubleshooting, Problem Solving",8
+Ethan White,Financial Analyst,"Excel, Data Analysis, QuickBooks",1
+Charlotte Thompson,Nurse,"Patient Assessment, Teamwork, Clinical Skills",6
+Mia Thomas,Nurse,"Medical Terminology, Critical Thinking, Patient Care",1
+Charlotte Thompson,Project Manager,"Project Planning, Agile, Team Management",1
+Sophia Taylor,Nurse,"Critical Thinking, Patient Care, Teamwork",1
+Elijah Moore,HR Manager,"Communication, Employee Relations, Recruitment",8
+Sophia Taylor,Chef,"Menu Planning, Knife Skills, Food Presentation",6
+Mason Lee,HR Manager,"Performance Management, Labor Laws, HR Software",10
+Olivia Brown,Software Engineer,"Kubernetes, Cloud Computing, Python",4
+Amelia Jackson,Content Writer,"Content Strategy, Research, SEO",1
+Lucas Anderson,Marketing Manager,"SEO, PPC, Content Marketing",2
+Emma Johnson,Product Manager,"Leadership, Data Analysis, Product Development",7
+Ethan White,Teacher,"Student Assessment, Lesson Planning, Communication",10
+Amelia Jackson,HR Manager,"HR Software, Labor Laws, Training",6
+Noah Davis,Financial Analyst,"Data Analysis, Budgeting, QuickBooks",8
+Noah Davis,Project Manager,"Team Management, Project Planning, Budgeting",10
+Amelia Jackson,Customer Support,"Communication, Product Knowledge, Time Management",1
+Mia Thomas,Project Manager,"Time Management, Communication, Team Management",4
+Mia Thomas,Legal Advisor,"Contract Law, Legal Writing, Litigation",6
+Elijah Moore,Software Engineer,"JavaScript, SQL, Cloud Computing",10
+Lucas Anderson,Digital Marketer,"Google Analytics, Email Marketing, Content Creation",10
+Lucas Anderson,Sales Manager,"Client Relationships, CRM, Customer Acquisition",3
+Sophia Taylor,Marketing Manager,"Email Marketing, Social Media Marketing, Market Research",7
+Lucas Anderson,Project Manager,"Agile, Time Management, Risk Management",1
+Emma Johnson,Data Scientist,"TensorFlow, Pandas, Data Visualization",10
+Amelia Jackson,Financial Analyst,"SQL, Financial Modeling, Power BI",10
+Charlotte Thompson,Teacher,"Pedagogy, Lesson Planning, Curriculum Design",1
+Isabella Martin,Marketing Manager,"Social Media Marketing, SEO, Market Research",2
+Liam Smith,Data Scientist,"Machine Learning, Python, SQL",4
+Isabella Martin,Digital Marketer,"Social Media Marketing, PPC, Email Marketing",9
+Isabella Martin,Content Writer,"SEO, Editing, Writing",1
+Noah Davis,Marketing Manager,"PPC, Content Marketing, Social Media Marketing",1
+Lucas Anderson,Marketing Manager,"PPC, Social Media Marketing, Content Marketing",6
+Elijah Moore,Mechanic,"Manual Tools, Engine Repair, Diagnostics",8
+Amelia Jackson,Legal Advisor,"Legal Writing, Litigation, Compliance",3
+Emma Johnson,Web Developer,"JavaScript, CSS, HTML",8
+Isabella Martin,Data Scientist,"Deep Learning, NumPy, SQL",3
+Mason Lee,Teacher,"Pedagogy, Classroom Management, Curriculum Design",6
+Ava Wilson,Mechanic,"Diagnostics, Vehicle Maintenance, Manual Tools",1
+Elijah Moore,Electrician,"Wiring, Problem Solving, Circuitry",4
+Harper Harris,HR Manager,"Communication, Recruitment, Organizational Development",1
+Noah Davis,Project Manager,"Team Management, Project Planning, Communication",1
+Harper Harris,Graphic Designer,"Figma, Adobe Photoshop, Creativity",7
+Ava Wilson,Content Writer,"SEO, Research, Writing",2
+Ava Wilson,Nurse,"Clinical Skills, Pharmaceutical Knowledge, Medical Terminology",5
+Lucas Anderson,Content Writer,"Proofreading, Content Strategy, Writing",2
+Charlotte Thompson,Marketing Manager,"Social Media Marketing, Brand Management, SEO",6
+Liam Smith,Digital Marketer,"Social Media Marketing, Content Creation, Google Analytics",9
+Lucas Anderson,Graphic Designer,"Adobe Illustrator, Figma, Sketch",1
+Charlotte Thompson,Software Engineer,"Java, SQL, Docker",1
+Mason Lee,Software Engineer,"JavaScript, SQL, Python",5
+Olivia Brown,Web Developer,"SQL, Git, HTML",4
+Sophia Taylor,Teacher,"Student Assessment, Classroom Management, Lesson Planning",6
+Elijah Moore,Financial Analyst,"Budgeting, Forecasting, Excel",10
+Charlotte Thompson,Marketing Manager,"PPC, Social Media Marketing, Brand Management",6
+Lucas Anderson,Data Scientist,"Deep Learning, R, NumPy",10
+Charlotte Thompson,Electrician,"Safety Procedures, Blueprint Reading, Problem Solving",6
+Lucas Anderson,Product Manager,"Roadmap Planning, UX/UI, Communication",3
+Mason Lee,Mechanic,"Manual Tools, Safety Procedures, Diagnostics",6
+Liam Smith,Customer Support,"Problem Solving, Product Knowledge, Time Management",9
+Elijah Moore,Nurse,"Patient Care, Critical Thinking, Pharmaceutical Knowledge",3
+Sophia Taylor,Digital Marketer,"Google Analytics, Content Creation, Email Marketing",5
+Ethan White,Digital Marketer,"Brand Strategy, Google Analytics, Email Marketing",7
+Ethan White,Data Scientist,"R, TensorFlow, Pandas",6
+Noah Davis,Financial Analyst,"Budgeting, QuickBooks, Accounting",6
+Mia Thomas,Customer Support,"Empathy, Product Knowledge, Problem Solving",10
+Lucas Anderson,Chef,"Cooking, Food Safety, Creativity",8
+Amelia Jackson,Financial Analyst,"QuickBooks, Budgeting, Excel",3
+Mason Lee,Product Manager,"UX/UI, Communication, Leadership",8
+Harper Harris,Sales Manager,"Negotiation, Team Leadership, CRM",4
+Elijah Moore,Data Scientist,"Python, Machine Learning, R",10
+Liam Smith,Software Engineer,"Git, Python, Cloud Computing",8
+Elijah Moore,Sales Manager,"CRM, Client Relationships, Negotiation",4
+Harper Harris,Sales Manager,"Negotiation, Team Leadership, Market Research",10
+Sophia Taylor,Product Manager,"Market Research, Agile, Leadership",5
+Noah Davis,Content Writer,"Proofreading, Creative Writing, Content Strategy",7
+Elijah Moore,Project Manager,"Agile, Team Management, Budgeting",4
+Mason Lee,Digital Marketer,"Content Creation, SEO, Social Media Marketing",8
+Ava Wilson,Content Writer,"Writing, Proofreading, Blogging",10
+Sophia Taylor,Software Engineer,"Git, JavaScript, Cloud Computing",9
+Lucas Anderson,Nurse,"Teamwork, Critical Thinking, Patient Assessment",9
+Sophia Taylor,Teacher,"Student Assessment, Lesson Planning, Curriculum Design",10
+Noah Davis,Electrician,"Wiring, Circuitry, Troubleshooting",8
+Elijah Moore,Customer Support,"CRM Software, Product Knowledge, Empathy",3
+Ethan White,Legal Advisor,"Document Drafting, Litigation, Negotiation",2
+Ethan White,HR Manager,"Communication, HR Software, Labor Laws",1
+Emma Johnson,Chef,"Food Presentation, Cooking, Time Management",6
+Charlotte Thompson,Chef,"Food Safety, Food Presentation, Time Management",4
+Ava Wilson,Software Engineer,"Git, Python, JavaScript",3
+Sophia Taylor,Marketing Manager,"Content Marketing, Social Media Marketing, PPC",6
+Ava Wilson,Customer Support,"Problem Solving, CRM Software, Empathy",7
+Liam Smith,Nurse,"Patient Assessment, Medical Terminology, Critical Thinking",7
+Isabella Martin,Mechanic,"Safety Procedures, Engine Repair, Diagnostics",10
+Noah Davis,Financial Analyst,"Financial Modeling, Data Analysis, Excel",4
+Noah Davis,Data Scientist,"Machine Learning, NumPy, Python",9
+Isabella Martin,Electrician,"Safety Procedures, Wiring, Problem Solving",3
+Elijah Moore,Sales Manager,"Sales Strategy, Negotiation, CRM",5
+Sophia Taylor,Data Scientist,"Python, R, Statistics",1
+Mia Thomas,Digital Marketer,"SEO, Brand Strategy, PPC",7
+Mason Lee,Nurse,"Patient Care, Medical Terminology, Teamwork",8
+Noah Davis,Product Manager,"Agile, Market Research, Data Analysis",9
+Isabella Martin,Content Writer,"Research, SEO, Blogging",5
+Charlotte Thompson,Nurse,"Medical Terminology, Patient Care, Critical Thinking",1
+Harper Harris,Electrician,"Circuitry, Safety Procedures, Problem Solving",8
+Liam Smith,Project Manager,"Team Management, Stakeholder Management, Budgeting",1
+Mason Lee,Customer Support,"Communication, Product Knowledge, Problem Solving",8
+Mason Lee,Teacher,"Curriculum Design, Student Assessment, Pedagogy",5
+Isabella Martin,Customer Support,"Communication, Time Management, Empathy",10
+Mason Lee,Electrician,"Problem Solving, Troubleshooting, Circuitry",6
+Liam Smith,Content Writer,"SEO, Blogging, Content Strategy",9
+Ethan White,Web Developer,"Vue.js, Express, SQL",8
+Charlotte Thompson,Legal Advisor,"Compliance, Corporate Law, Document Drafting",3
+Noah Davis,Digital Marketer,"Google Analytics, Email Marketing, Google Ads",9
+Olivia Brown,Web Developer,"Git, HTML, Node.js",3
+Noah Davis,Sales Manager,"Team Leadership, Sales Strategy, Customer Acquisition",3
+Amelia Jackson,Nurse,"Medical Terminology, Critical Thinking, Teamwork",9
+Mason Lee,Mechanic,"Manual Tools, Vehicle Maintenance, Engine Repair",6
+Olivia Brown,Chef,"Knife Skills, Cooking, Menu Planning",10
+Harper Harris,Digital Marketer,"Email Marketing, Google Ads, Content Creation",4
+Sophia Taylor,Digital Marketer,"Social Media Marketing, Content Creation, SEO",10
+Ethan White,Customer Support,"Communication, Problem Solving, Empathy",1
+Charlotte Thompson,Sales Manager,"CRM, Team Leadership, Negotiation",6
+Ethan White,Graphic Designer,"Adobe Photoshop, Figma, Creativity",6
+Ethan White,Digital Marketer,"Content Creation, Google Ads, Email Marketing",7
+Olivia Brown,Teacher,"Education Technology, Curriculum Design, Classroom Management",4
+Ava Wilson,Sales Manager,"Customer Acquisition, Client Relationships, CRM",4
+Ava Wilson,Legal Advisor,"Corporate Law, Legal Writing, Legal Research",5
+Noah Davis,Chef,"Cooking, Knife Skills, Creativity",8
+Mason Lee,Nurse,"Teamwork, Medical Terminology, Critical Thinking",10
+Mason Lee,Product Manager,"Data Analysis, Leadership, Product Development",9
+Mia Thomas,Chef,"Food Safety, Menu Planning, Creativity",5
+Liam Smith,Sales Manager,"CRM, Client Relationships, Team Leadership",4
+Liam Smith,Data Scientist,"NumPy, SQL, Statistics",4
+Olivia Brown,Financial Analyst,"Budgeting, Excel, QuickBooks",1
+Mason Lee,Data Scientist,"Machine Learning, R, SQL",7
+Isabella Martin,Mechanic,"Diagnostics, Vehicle Maintenance, Engine Repair",4
+Ethan White,Digital Marketer,"Brand Strategy, Social Media Marketing, Google Ads",3
+Liam Smith,Financial Analyst,"Data Analysis, QuickBooks, Forecasting",2
+Mason Lee,Product Manager,"Data Analysis, Communication, UX/UI",1
+Harper Harris,Digital Marketer,"Google Analytics, PPC, Brand Strategy",10
+Elijah Moore,Project Manager,"Time Management, Budgeting, Team Management",4
+Ethan White,Mechanic,"Safety Procedures, Vehicle Maintenance, Manual Tools",10
+Olivia Brown,Customer Support,"Customer Service, Time Management, CRM Software",5
+Sophia Taylor,Electrician,"Troubleshooting, Blueprint Reading, Safety Procedures",9
+Ethan White,Customer Support,"Product Knowledge, Communication, CRM Software",8
+Ethan White,Product Manager,"Roadmap Planning, Product Development, Data Analysis",8
+Lucas Anderson,Customer Support,"CRM Software, Problem Solving, Product Knowledge",6
+Charlotte Thompson,Product Manager,"Market Research, Communication, UX/UI",10
+Amelia Jackson,Teacher,"Lesson Planning, Curriculum Design, Communication",3
+Noah Davis,Financial Analyst,"Accounting, Budgeting, Forecasting",3
+Sophia Taylor,Content Writer,"Creative Writing, SEO, Blogging",5
+Olivia Brown,Sales Manager,"Market Research, Customer Acquisition, Sales Strategy",1
+Mason Lee,Data Scientist,"Deep Learning, Statistics, Machine Learning",7
+Isabella Martin,Digital Marketer,"Email Marketing, Content Creation, SEO",9
+Olivia Brown,Chef,"Teamwork, Creativity, Food Safety",8
+Mason Lee,Web Developer,"React, Express, Vue.js",8
+Olivia Brown,Data Scientist,"R, TensorFlow, Pandas",5
+Mason Lee,Software Engineer,"Java, Git, Agile",1
+Ethan White,Project Manager,"Agile, Budgeting, Project Planning",6
+Olivia Brown,Mechanic,"Safety Procedures, Diagnostics, Engine Repair",3
+Harper Harris,Legal Advisor,"Negotiation, Legal Writing, Litigation",8
+Lucas Anderson,Legal Advisor,"Document Drafting, Compliance, Legal Research",8
+Ethan White,Marketing Manager,"SEO, Marketing Strategy, Market Research",3
+Sophia Taylor,Nurse,"Medical Terminology, Patient Care, Pharmaceutical Knowledge",1
+Mason Lee,Marketing Manager,"Brand Management, Content Marketing, SEO",5
+Ava Wilson,Digital Marketer,"Google Ads, Content Creation, Brand Strategy",3
+Ava Wilson,Sales Manager,"Customer Acquisition, Client Relationships, CRM",4
+Noah Davis,Software Engineer,"Python, Cloud Computing, SQL",7
+Emma Johnson,HR Manager,"Performance Management, Employee Relations, Labor Laws",9
+Liam Smith,Marketing Manager,"Social Media Marketing, PPC, Email Marketing",3
+Charlotte Thompson,Software Engineer,"SQL, C++, Cloud Computing",9
+Olivia Brown,Project Manager,"Communication, Stakeholder Management, Budgeting",6
+Ethan White,Teacher,"Pedagogy, Classroom Management, Communication",5
+Noah Davis,Content Writer,"SEO, Proofreading, Content Strategy",6
+Olivia Brown,Electrician,"Problem Solving, Wiring, Circuitry",7
+Harper Harris,Project Manager,"Communication, Time Management, Budgeting",8
+Lucas Anderson,Chef,"Menu Planning, Food Presentation, Time Management",9
+Ava Wilson,Customer Support,"CRM Software, Communication, Empathy",6
+Harper Harris,Software Engineer,"Agile, Cloud Computing, JavaScript",8
+Lucas Anderson,Nurse,"Patient Assessment, Critical Thinking, Teamwork",1
+Liam Smith,Customer Support,"Time Management, Product Knowledge, Problem Solving",8
+Mia Thomas,Digital Marketer,"PPC, Google Ads, Google Analytics",9
+Mia Thomas,Data Scientist,"Data Visualization, NumPy, Deep Learning",8
+Noah Davis,Data Scientist,"Python, SQL, Deep Learning",3
+Noah Davis,Mechanic,"Manual Tools, Engine Repair, Vehicle Maintenance",9
+Olivia Brown,Web Developer,"Vue.js, React, REST APIs",1
+Mia Thomas,Web Developer,"Vue.js, Node.js, SQL",5
+Harper Harris,Chef,"Food Safety, Cooking, Knife Skills",4
+Harper Harris,Digital Marketer,"PPC, Google Analytics, Social Media Marketing",10
+Amelia Jackson,Software Engineer,"Kubernetes, Java, Docker",5
+Emma Johnson,Legal Advisor,"Contract Law, Legal Writing, Negotiation",10
+Liam Smith,Product Manager,"Data Analysis, Agile, Communication",2
+Elijah Moore,Digital Marketer,"Email Marketing, PPC, Brand Strategy",2
+Ethan White,Nurse,"Medical Terminology, Patient Care, Patient Assessment",9
+Mia Thomas,Teacher,"Student Assessment, Communication, Curriculum Design",5
+Mason Lee,Graphic Designer,"UI/UX Design, Creativity, Color Theory",5
+Noah Davis,Teacher,"Pedagogy, Lesson Planning, Education Technology",6
+Sophia Taylor,HR Manager,"Performance Management, Employee Relations, Recruitment",5
+Elijah Moore,Content Writer,"Creative Writing, Writing, Editing",4
+Sophia Taylor,Graphic Designer,"Adobe Photoshop, InDesign, Sketch",8
+Olivia Brown,Chef,"Time Management, Food Presentation, Teamwork",8
+Sophia Taylor,Legal Advisor,"Contract Law, Legal Research, Document Drafting",8
+Lucas Anderson,Digital Marketer,"Social Media Marketing, Brand Strategy, PPC",5
+Olivia Brown,Financial Analyst,"Budgeting, QuickBooks, Accounting",1
+Ava Wilson,Nurse,"Medical Terminology, Patient Care, Critical Thinking",7
+Emma Johnson,Financial Analyst,"Excel, Forecasting, Financial Modeling",3
+Lucas Anderson,HR Manager,"Employee Relations, HR Software, Performance Management",7
+Olivia Brown,Digital Marketer,"Email Marketing, SEO, PPC",4
+Mason Lee,Electrician,"Safety Procedures, Blueprint Reading, Circuitry",4
+Harper Harris,Content Writer,"Content Strategy, Research, Editing",9
+Emma Johnson,Web Developer,"Vue.js, Git, CSS",4
+Liam Smith,Legal Advisor,"Contract Law, Compliance, Legal Writing",3
+Amelia Jackson,Content Writer,"Creative Writing, Research, Content Strategy",6
+Harper Harris,Data Scientist,"SQL, NumPy, Machine Learning",9
+Ethan White,Mechanic,"Diagnostics, Blueprint Reading, Vehicle Maintenance",3
+Charlotte Thompson,Electrician,"Circuitry, Safety Procedures, Wiring",4
+Mason Lee,Teacher,"Communication, Education Technology, Classroom Management",3
+Liam Smith,Product Manager,"Data Analysis, UX/UI, Roadmap Planning",4
+Isabella Martin,Software Engineer,"Agile, Kubernetes, Cloud Computing",5
+Sophia Taylor,Nurse,"Patient Care, Pharmaceutical Knowledge, Medical Terminology",4
+Noah Davis,Software Engineer,"Git, SQL, C++",6
+Ava Wilson,Financial Analyst,"QuickBooks, Budgeting, Accounting",7
+Noah Davis,Software Engineer,"SQL, Docker, Python",7
+Olivia Brown,HR Manager,"Performance Management, Communication, Training",6
+Ava Wilson,Nurse,"Patient Care, Critical Thinking, Pharmaceutical Knowledge",9
+Elijah Moore,Mechanic,"Vehicle Maintenance, Problem Solving, Manual Tools",10
+Lucas Anderson,Chef,"Food Presentation, Food Safety, Creativity",1
+Isabella Martin,Project Manager,"Stakeholder Management, Project Planning, Agile",4
+Amelia Jackson,Web Developer,"Node.js, HTML, React",4
+Harper Harris,Mechanic,"Diagnostics, Safety Procedures, Blueprint Reading",1
+Mason Lee,Financial Analyst,"Forecasting, Data Analysis, Financial Modeling",10
+Ava Wilson,Project Manager,"Time Management, Agile, Team Management",4
+Isabella Martin,HR Manager,"Employee Relations, Organizational Development, Labor Laws",4
+Ava Wilson,Chef,"Food Safety, Teamwork, Food Presentation",7
+Mia Thomas,Financial Analyst,"QuickBooks, Financial Modeling, Excel",10
+Ava Wilson,Electrician,"Blueprint Reading, Wiring, Troubleshooting",3
+Emma Johnson,Customer Support,"Problem Solving, Customer Service, Communication",3
+Harper Harris,Electrician,"Circuitry, Wiring, Problem Solving",5
+Isabella Martin,Chef,"Cooking, Knife Skills, Food Presentation",8
+Liam Smith,Nurse,"Patient Care, Teamwork, Pharmaceutical Knowledge",3
+Charlotte Thompson,Teacher,"Classroom Management, Education Technology, Curriculum Design",7
+Elijah Moore,Marketing Manager,"SEO, Brand Management, Marketing Strategy",5
+Olivia Brown,Legal Advisor,"Negotiation, Litigation, Legal Research",5
+Mason Lee,Teacher,"Curriculum Design, Student Assessment, Pedagogy",7
+Noah Davis,Chef,"Food Presentation, Cooking, Creativity",1
+Ethan White,Digital Marketer,"PPC, Brand Strategy, Google Ads",4
+Noah Davis,Chef,"Menu Planning, Food Presentation, Time Management",6
+Ava Wilson,Software Engineer,"Python, C++, Docker",10
+Charlotte Thompson,Legal Advisor,"Negotiation, Legal Writing, Corporate Law",9
+Isabella Martin,Project Manager,"Project Planning, Stakeholder Management, Communication",2
+Harper Harris,Digital Marketer,"SEO, PPC, Google Ads",10
+Mia Thomas,Marketing Manager,"Marketing Strategy, Email Marketing, PPC",4
+Liam Smith,Nurse,"Pharmaceutical Knowledge, Clinical Skills, Teamwork",7
+Mason Lee,Content Writer,"Writing, Content Strategy, Blogging",10
+Liam Smith,HR Manager,"Performance Management, Training, Communication",4
+Ethan White,Digital Marketer,"Google Analytics, SEO, Email Marketing",4
+Liam Smith,Project Manager,"Project Planning, Risk Management, Communication",8
+Amelia Jackson,Data Scientist,"R, SQL, Pandas",8
+Emma Johnson,Sales Manager,"Negotiation, Customer Acquisition, CRM",3
+Isabella Martin,Content Writer,"Creative Writing, Proofreading, Writing",4
+Olivia Brown,Data Scientist,"TensorFlow, Data Visualization, NumPy",10
+Liam Smith,Marketing Manager,"Social Media Marketing, Marketing Strategy, Content Marketing",6
+Isabella Martin,Product Manager,"Data Analysis, Market Research, Agile",5
+Olivia Brown,HR Manager,"Training, Labor Laws, Performance Management",6
+Liam Smith,Marketing Manager,"Content Marketing, PPC, Market Research",3
+Ethan White,Marketing Manager,"Social Media Marketing, PPC, SEO",9
+Sophia Taylor,Web Developer,"Node.js, React, REST APIs",4
+Noah Davis,Data Scientist,"Deep Learning, Statistics, SQL",3
+Harper Harris,Content Writer,"Writing, SEO, Creative Writing",7
+Ethan White,Legal Advisor,"Legal Research, Contract Law, Compliance",7
+Ava Wilson,HR Manager,"Performance Management, Recruitment, Training",8
+Olivia Brown,HR Manager,"Labor Laws, Performance Management, Organizational Development",4
+Mason Lee,Mechanic,"Vehicle Maintenance, Diagnostics, Problem Solving",4
+Noah Davis,Chef,"Menu Planning, Teamwork, Food Presentation",8
+Olivia Brown,Financial Analyst,"Accounting, Budgeting, Data Analysis",7
+Mia Thomas,Web Developer,"React, Node.js, JavaScript",1
+Elijah Moore,Project Manager,"Stakeholder Management, Team Management, Project Planning",5
+Noah Davis,HR Manager,"Labor Laws, Employee Relations, Recruitment",9
+Amelia Jackson,Electrician,"Troubleshooting, Wiring, Electrical Codes",2
+Ava Wilson,Web Developer,"JavaScript, Vue.js, Express",6
+Sophia Taylor,Financial Analyst,"Budgeting, Financial Modeling, Power BI",6
+Olivia Brown,Graphic Designer,"InDesign, Figma, Adobe Illustrator",8
+Ava Wilson,Graphic Designer,"Sketch, InDesign, Figma",10
+Mason Lee,Legal Advisor,"Document Drafting, Litigation, Compliance",2
+Isabella Martin,Sales Manager,"Market Research, Customer Acquisition, Client Relationships",9
+Noah Davis,Financial Analyst,"Data Analysis, Power BI, Forecasting",5
+Mia Thomas,Sales Manager,"CRM, Negotiation, Team Leadership",9
+Harper Harris,HR Manager,"Employee Relations, Performance Management, Organizational Development",8
+Olivia Brown,Graphic Designer,"Creativity, Color Theory, InDesign",1
+Charlotte Thompson,HR Manager,"Performance Management, Training, Communication",6
+Liam Smith,Project Manager,"Team Management, Project Planning, Risk Management",10
+Olivia Brown,Chef,"Time Management, Teamwork, Knife Skills",9
+Amelia Jackson,Teacher,"Classroom Management, Student Assessment, Communication",2
+Sophia Taylor,Sales Manager,"Team Leadership, Market Research, Sales Strategy",7
+Sophia Taylor,Graphic Designer,"Creativity, Color Theory, Sketch",4
+Noah Davis,Data Scientist,"Pandas, TensorFlow, Statistics",2
+Ethan White,Marketing Manager,"PPC, Content Marketing, Market Research",6
+Mason Lee,Project Manager,"Communication, Team Management, Time Management",6
+Ava Wilson,Product Manager,"Communication, UX/UI, Market Research",7
+Emma Johnson,Chef,"Creativity, Menu Planning, Time Management",10
+Amelia Jackson,Legal Advisor,"Contract Law, Corporate Law, Negotiation",10
+Mia Thomas,Sales Manager,"Negotiation, Team Leadership, Client Relationships",10
+Amelia Jackson,Content Writer,"Creative Writing, Blogging, Editing",3
+Mia Thomas,Product Manager,"Agile, Data Analysis, Communication",9
+Lucas Anderson,Digital Marketer,"Google Analytics, Social Media Marketing, Content Creation",5
+Mia Thomas,Graphic Designer,"Color Theory, InDesign, UI/UX Design",10
+Sophia Taylor,Mechanic,"Blueprint Reading, Problem Solving, Diagnostics",2
+Ava Wilson,Marketing Manager,"Brand Management, Market Research, Marketing Strategy",8
+Noah Davis,Chef,"Food Safety, Food Presentation, Creativity",3
+Liam Smith,Software Engineer,"Docker, Kubernetes, Cloud Computing",10
+Isabella Martin,Product Manager,"Communication, Leadership, Market Research",3
+Ava Wilson,Web Developer,"Vue.js, React, Node.js",3
+Emma Johnson,Data Scientist,"Deep Learning, Machine Learning, Data Visualization",9
+Amelia Jackson,Web Developer,"Express, React, CSS",8
+Amelia Jackson,Mechanic,"Blueprint Reading, Engine Repair, Problem Solving",9
+Charlotte Thompson,Mechanic,"Blueprint Reading, Engine Repair, Vehicle Maintenance",9
+Sophia Taylor,Chef,"Knife Skills, Food Presentation, Food Safety",1
+Harper Harris,Web Developer,"Git, Express, JavaScript",9
+Sophia Taylor,Sales Manager,"Team Leadership, Customer Acquisition, Market Research",4
+Emma Johnson,Web Developer,"REST APIs, Express, JavaScript",4
+Charlotte Thompson,Nurse,"Teamwork, Critical Thinking, Patient Care",10
+Ava Wilson,Marketing Manager,"Email Marketing, PPC, Marketing Strategy",4
+Mia Thomas,HR Manager,"Performance Management, HR Software, Labor Laws",1
+Mia Thomas,Data Scientist,"NumPy, Deep Learning, Statistics",10
+Noah Davis,Marketing Manager,"Email Marketing, PPC, Market Research",10
+Harper Harris,Financial Analyst,"Budgeting, QuickBooks, Financial Modeling",10
+Ava Wilson,Customer Support,"Customer Service, Time Management, CRM Software",4
+Noah Davis,Digital Marketer,"PPC, Email Marketing, Content Creation",3
+Lucas Anderson,HR Manager,"Training, Labor Laws, Recruitment",7
+Ava Wilson,Mechanic,"Diagnostics, Vehicle Maintenance, Blueprint Reading",5
+Isabella Martin,Digital Marketer,"Email Marketing, Google Ads, Brand Strategy",9
+Noah Davis,Legal Advisor,"Legal Writing, Document Drafting, Contract Law",7
+Emma Johnson,Financial Analyst,"Forecasting, Financial Modeling, Data Analysis",10
+Lucas Anderson,Software Engineer,"SQL, C++, Java",10
+Elijah Moore,Project Manager,"Team Management, Risk Management, Communication",8
+Harper Harris,Sales Manager,"Sales Strategy, CRM, Customer Acquisition",3
+Noah Davis,Content Writer,"Research, Content Strategy, Proofreading",7
+Sophia Taylor,Sales Manager,"Customer Acquisition, CRM, Sales Strategy",6
+Ava Wilson,HR Manager,"Communication, Training, Employee Relations",5
+Amelia Jackson,Content Writer,"Writing, Research, Creative Writing",5
+Emma Johnson,Content Writer,"Research, SEO, Blogging",2
+Isabella Martin,Legal Advisor,"Litigation, Legal Writing, Corporate Law",1
+Noah Davis,Data Scientist,"TensorFlow, Python, Data Visualization",5
+Harper Harris,Chef,"Teamwork, Food Presentation, Time Management",2
+Harper Harris,Software Engineer,"Python, C++, SQL",6
+Harper Harris,Financial Analyst,"SQL, Financial Modeling, Excel",2
+Emma Johnson,Teacher,"Communication, Education Technology, Lesson Planning",1
+Liam Smith,HR Manager,"Employee Relations, Training, Organizational Development",8
+Elijah Moore,Teacher,"Pedagogy, Communication, Student Assessment",9
+Sophia Taylor,Chef,"Cooking, Knife Skills, Time Management",4
+Harper Harris,Digital Marketer,"Email Marketing, SEO, Brand Strategy",9
+Charlotte Thompson,Teacher,"Curriculum Design, Student Assessment, Education Technology",2
+Sophia Taylor,Data Scientist,"TensorFlow, Machine Learning, Python",4
+Noah Davis,Mechanic,"Engine Repair, Blueprint Reading, Safety Procedures",7
+Lucas Anderson,Sales Manager,"Team Leadership, Client Relationships, Customer Acquisition",8
+Elijah Moore,Financial Analyst,"Accounting, Forecasting, Data Analysis",7
+Ava Wilson,Sales Manager,"Sales Strategy, CRM, Team Leadership",2
+Ava Wilson,Product Manager,"Market Research, Product Development, Communication",4
+Mason Lee,Financial Analyst,"Forecasting, Budgeting, Financial Modeling",1
+Liam Smith,Data Scientist,"SQL, Python, Machine Learning",3
+Charlotte Thompson,Graphic Designer,"Creativity, Adobe Illustrator, Figma",8
+Harper Harris,Content Writer,"Proofreading, Blogging, SEO",1
+Olivia Brown,HR Manager,"Employee Relations, Performance Management, Training",7
+Lucas Anderson,Data Scientist,"Statistics, Python, SQL",4
+Liam Smith,HR Manager,"Communication, Recruitment, HR Software",1
+Elijah Moore,Nurse,"Teamwork, Critical Thinking, Medical Terminology",7
+Ava Wilson,Software Engineer,"Docker, Git, JavaScript",7
+Olivia Brown,Marketing Manager,"PPC, SEO, Brand Management",4
+Isabella Martin,Mechanic,"Manual Tools, Blueprint Reading, Engine Repair",10
+Ethan White,Graphic Designer,"Figma, Sketch, UI/UX Design",7
+Charlotte Thompson,Graphic Designer,"UI/UX Design, Creativity, Adobe Photoshop",1
+Harper Harris,Sales Manager,"Team Leadership, Market Research, CRM",9
+Ava Wilson,Product Manager,"Leadership, Data Analysis, Agile",9
+Noah Davis,Product Manager,"Data Analysis, Communication, Agile",6
+Amelia Jackson,Financial Analyst,"QuickBooks, Power BI, SQL",1
+Liam Smith,Sales Manager,"Customer Acquisition, Negotiation, Market Research",8
+Lucas Anderson,Legal Advisor,"Corporate Law, Legal Research, Compliance",10
+Harper Harris,Data Scientist,"R, Machine Learning, NumPy",5
+Elijah Moore,Software Engineer,"Git, Kubernetes, C++",9
+Liam Smith,Graphic Designer,"Adobe Photoshop, Figma, Adobe Illustrator",5
+Liam Smith,Data Scientist,"R, SQL, NumPy",10
+Charlotte Thompson,Digital Marketer,"SEO, Social Media Marketing, Google Analytics",9
+Mason Lee,Sales Manager,"Negotiation, Team Leadership, Client Relationships",1
+Amelia Jackson,HR Manager,"Organizational Development, HR Software, Training",3
+Lucas Anderson,Content Writer,"Content Strategy, Writing, Proofreading",10
+Sophia Taylor,Sales Manager,"Market Research, Team Leadership, Negotiation",2
+Liam Smith,Data Scientist,"Statistics, NumPy, SQL",9
+Sophia Taylor,Web Developer,"JavaScript, SQL, HTML",8
+Mason Lee,Customer Support,"CRM Software, Problem Solving, Time Management",2
+Amelia Jackson,Mechanic,"Problem Solving, Safety Procedures, Engine Repair",2
+Emma Johnson,Teacher,"Lesson Planning, Education Technology, Classroom Management",6
+Elijah Moore,Financial Analyst,"Budgeting, Forecasting, Financial Modeling",4
+Elijah Moore,Mechanic,"Engine Repair, Diagnostics, Blueprint Reading",10
+Olivia Brown,Product Manager,"Agile, UX/UI, Roadmap Planning",3
+Harper Harris,Nurse,"Clinical Skills, Critical Thinking, Medical Terminology",5
+Lucas Anderson,Teacher,"Curriculum Design, Student Assessment, Pedagogy",10
+Ethan White,Web Developer,"Node.js, SQL, React",3
+Liam Smith,Web Developer,"REST APIs, HTML, SQL",2
+Mason Lee,Chef,"Knife Skills, Teamwork, Menu Planning",7
+Harper Harris,Web Developer,"SQL, React, REST APIs",6
+Harper Harris,Electrician,"Troubleshooting, Wiring, Problem Solving",2
+Ava Wilson,Product Manager,"Leadership, Market Research, Agile",4
+Sophia Taylor,HR Manager,"Training, HR Software, Labor Laws",4
+Lucas Anderson,Software Engineer,"Java, Cloud Computing, Agile",4
+Ava Wilson,Project Manager,"Risk Management, Project Planning, Budgeting",7
+Mia Thomas,Mechanic,"Engine Repair, Vehicle Maintenance, Safety Procedures",1
+Noah Davis,Digital Marketer,"PPC, Google Ads, Brand Strategy",9
+Ava Wilson,Legal Advisor,"Compliance, Corporate Law, Negotiation",3
+Isabella Martin,Nurse,"Patient Assessment, Critical Thinking, Medical Terminology",5
+Noah Davis,Sales Manager,"Client Relationships, Team Leadership, Sales Strategy",3
+Amelia Jackson,Project Manager,"Risk Management, Stakeholder Management, Project Planning",7
+Isabella Martin,Graphic Designer,"Adobe Photoshop, Figma, UI/UX Design",10
+Sophia Taylor,Mechanic,"Manual Tools, Diagnostics, Safety Procedures",10
+Noah Davis,Data Scientist,"Machine Learning, Statistics, SQL",8
+Mia Thomas,Content Writer,"SEO, Blogging, Writing",10
+Mia Thomas,Legal Advisor,"Contract Law, Corporate Law, Negotiation",7
+Charlotte Thompson,Digital Marketer,"Email Marketing, Brand Strategy, Google Ads",7
+Ava Wilson,Financial Analyst,"Power BI, QuickBooks, SQL",6
+Emma Johnson,Marketing Manager,"Marketing Strategy, Email Marketing, Brand Management",6
+Charlotte Thompson,Chef,"Cooking, Teamwork, Food Safety",9
+Isabella Martin,Project Manager,"Time Management, Communication, Team Management",3
+Elijah Moore,Legal Advisor,"Document Drafting, Legal Research, Legal Writing",4
+Ethan White,Sales Manager,"Customer Acquisition, CRM, Market Research",6
+Mason Lee,Content Writer,"Editing, Content Strategy, Creative Writing",7
+Isabella Martin,Software Engineer,"Agile, Kubernetes, JavaScript",8
+Harper Harris,Software Engineer,"Cloud Computing, Java, SQL",6
+Harper Harris,Content Writer,"Research, Editing, SEO",7
+Amelia Jackson,Chef,"Food Presentation, Cooking, Creativity",7
+Charlotte Thompson,Digital Marketer,"Content Creation, Email Marketing, Social Media Marketing",1
+Elijah Moore,Project Manager,"Stakeholder Management, Time Management, Communication",4
+Amelia Jackson,Sales Manager,"Client Relationships, Negotiation, Sales Strategy",9
+Lucas Anderson,Financial Analyst,"Data Analysis, Budgeting, QuickBooks",2
+Harper Harris,Web Developer,"React, Git, REST APIs",1
+Ethan White,Project Manager,"Budgeting, Agile, Stakeholder Management",7
+Noah Davis,Software Engineer,"Agile, Python, Cloud Computing",7
+Mia Thomas,HR Manager,"Labor Laws, Training, Communication",6
+Lucas Anderson,Teacher,"Student Assessment, Communication, Lesson Planning",8
+Noah Davis,Software Engineer,"JavaScript, Kubernetes, SQL",4
+Sophia Taylor,Product Manager,"Agile, Market Research, Communication",2
+Charlotte Thompson,Digital Marketer,"PPC, Social Media Marketing, Google Ads",8
+Lucas Anderson,Project Manager,"Stakeholder Management, Risk Management, Time Management",3
+Lucas Anderson,Data Scientist,"NumPy, Statistics, R",6
+Ethan White,Project Manager,"Team Management, Risk Management, Agile",5
+Isabella Martin,Software Engineer,"Docker, Kubernetes, Agile",5
+Amelia Jackson,Customer Support,"Time Management, Empathy, Communication",2
+Olivia Brown,Graphic Designer,"Figma, Adobe Illustrator, Sketch",6
+Emma Johnson,Nurse,"Patient Care, Pharmaceutical Knowledge, Critical Thinking",8
+Ethan White,Graphic Designer,"Adobe Photoshop, Color Theory, Creativity",7
+Mia Thomas,Electrician,"Wiring, Circuitry, Problem Solving",10
+Amelia Jackson,Graphic Designer,"Color Theory, Sketch, Adobe Photoshop",8
+Harper Harris,Customer Support,"Problem Solving, Communication, Time Management",5
+Elijah Moore,Data Scientist,"NumPy, Data Visualization, Deep Learning",4
+Ethan White,Software Engineer,"Kubernetes, Cloud Computing, Docker",7
+Charlotte Thompson,Customer Support,"CRM Software, Customer Service, Problem Solving",1
+Isabella Martin,Legal Advisor,"Compliance, Legal Research, Litigation",3
+Liam Smith,Customer Support,"Customer Service, Problem Solving, Communication",1
+Lucas Anderson,Project Manager,"Risk Management, Agile, Time Management",10
+Sophia Taylor,Digital Marketer,"SEO, Content Creation, Google Analytics",4
+Liam Smith,HR Manager,"Communication, Training, HR Software",2
+Isabella Martin,Electrician,"Blueprint Reading, Electrical Codes, Wiring",6
+Sophia Taylor,Software Engineer,"Python, Cloud Computing, C++",9
+Mason Lee,Chef,"Time Management, Creativity, Food Presentation",2
+Elijah Moore,Mechanic,"Engine Repair, Problem Solving, Vehicle Maintenance",10
+Elijah Moore,Data Scientist,"R, Deep Learning, Statistics",10
+Sophia Taylor,HR Manager,"Employee Relations, Performance Management, Recruitment",1
+Olivia Brown,Marketing Manager,"PPC, Email Marketing, Brand Management",4
+Emma Johnson,Nurse,"Critical Thinking, Patient Care, Patient Assessment",4
+Charlotte Thompson,Electrician,"Circuitry, Problem Solving, Troubleshooting",10
+Elijah Moore,Teacher,"Pedagogy, Lesson Planning, Classroom Management",4
+Charlotte Thompson,Electrician,"Electrical Codes, Troubleshooting, Problem Solving",10
+Isabella Martin,Project Manager,"Stakeholder Management, Time Management, Risk Management",2
+Amelia Jackson,Mechanic,"Engine Repair, Safety Procedures, Blueprint Reading",9
+Ethan White,Legal Advisor,"Legal Writing, Corporate Law, Document Drafting",3
+Ava Wilson,Electrician,"Electrical Codes, Safety Procedures, Problem Solving",6
+Sophia Taylor,Product Manager,"Agile, Data Analysis, Market Research",1
+Charlotte Thompson,Sales Manager,"Customer Acquisition, Team Leadership, CRM",8
+Liam Smith,HR Manager,"Organizational Development, Employee Relations, Recruitment",1
+Sophia Taylor,Legal Advisor,"Compliance, Legal Writing, Negotiation",4
+Charlotte Thompson,Web Developer,"CSS, Vue.js, SQL",1
