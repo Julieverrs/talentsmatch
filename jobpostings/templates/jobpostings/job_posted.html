@@ -1,32 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Posted</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'jobpostings/styles.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f0f5ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .job-post-container {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            width: 90%;
+            padding: 40px;
+        }
+
+        h2 {
+            color: #4f83cc;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .job-details,
+        .recommended-candidates {
+            margin-bottom: 40px;
+        }
+
+        .job-details h3,
+        .recommended-candidates h3 {
+            font-size: 1.8rem;
+            color: #4f83cc;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .job-details p,
+        .recommended-candidates ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .recommended-candidates ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .recommended-candidates li {
+            background: #f5f7fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #dcdfe3;
+            transition: transform 0.2s ease;
+        }
+
+        .recommended-candidates li:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .recommended-candidates strong {
+            font-weight: bold;
+            color: #4f83cc;
+        }
+
+        .recommended-candidates li p {
+            margin: 5px 0;
+        }
+
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            background: #4f83cc;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background 0.3s;
+        }
+
+        .back-button:hover {
+            background: #3870b5;
+        }
+
+        .back-button:active {
+            background: #285a8f;
+        }
+    </style>
 </head>
+
 <body>
-    <h2>Your job has been posted successfully!</h2>
-    <p>Thank you for posting the job. Here are some recommended candidates:</p>
+    <div class="job-post-container">
+        <h2>Your Job Has Been Posted Successfully!</h2>
 
-    {% if recommended_applicants %}
-        <ul>
-            {% for applicant in recommended_applicants %}
-                <li>
-                    <strong>{{ applicant.Name }}</strong><br>
-                    Job Title: {{ applicant.Job_Title }}<br> <!-- Updated field name -->
-                    Skills: {{ applicant.Skills }}<br>
-                    Experience: {{ applicant.Experience }}<br>
-                </li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p>No recommendations found based on your job posting criteria.</p>
-    {% endif %}
+        <!-- Job Details Section -->
+        <div class="job-details">
+            <h3>Job Details</h3>
+            <p><strong>Job Title:</strong> {{ job.title }}</p>
+            <p><strong>Description:</strong> {{ job.description }}</p>
+            <p><strong>Experience Level:</strong> {{ job.experience_level }}</p>
+            <p><strong>Required Skills:</strong> {{ job.required_skills }}</p>
+        </div>
 
-    <!-- Back Button -->
-    <a href="{% url 'post-job' %}">
-        <button>Back to Post Job</button>
-    </a>
+        <!-- Recommended Applicants Section -->
+        <div class="recommended-candidates">
+            <h3>Recommended Candidates</h3>
+
+            {% if recommended_applicants %}
+                <ul>
+                    {% for applicant in recommended_applicants %}
+                        <li>
+                            <strong>{{ applicant.Name }}</strong><br>
+                            <p><strong>Job Title:</strong> {{ applicant.Job_Title }}</p>
+                            <p><strong>Skills:</strong> {{ applicant.Skills }}</p>
+                            <p><strong>Experience:</strong> {{ applicant.Experience }}</p>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No recommendations found based on your job posting criteria.</p>
+            {% endif %}
+        </div>
+
+        <!-- Back Button -->
+        <a href="{% url 'post-job' %}" class="back-button">Back to Post Job</a>
+    </div>
 </body>
+
 </html>
