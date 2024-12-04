@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin - View Job Postings</title>
+    <title>Admin - Job Postings</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,252 +16,228 @@
 
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
-            background: white;
-            color: #f5f5f5;
-            padding: 20px 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f3f4f6;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
         }
 
         .container {
             max-width: 1200px;
             margin: auto;
+            padding: 20px;
         }
 
-        h1 {
+        /* Header */
+        .header {
             text-align: center;
-            font-size: 2.2rem;  /* Reduced the size for better user-friendliness */
-            font-weight: 600;
-            color: #007bff; /* Blue Accent */
-            margin-bottom: 30px; /* Reduced the margin */
+            margin-bottom: 30px;
         }
 
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #007bff;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+        /* Search Bar */
         .search-bar {
-            margin-bottom: 20px; /* Reduced margin */
+            margin-bottom: 30px;
             display: flex;
             justify-content: center;
         }
 
         .search-bar input {
-            width: 60%;
-            padding: 10px 15px;  /* Reduced padding */
-            font-size: 1rem;  /* Reduced font size */
-            border-radius: 25px;  /* Slightly rounder input box */
-            border: 2px solid #007bff;
-            background-color: white;
-            color: black;
+            width: 70%;
+            padding: 12px 15px;
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            outline: none;
+            font-size: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.3s, box-shadow 0.3s;
         }
 
-        .search-bar input::placeholder {
-            color: #aaaaaa;
+        .search-bar input:focus {
+            border-color: #007bff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
 
         /* Job Postings */
-        .job-posting {
-            background: white;
-            border-radius: 15px;
-            padding: 15px;  /* Reduced padding */
-            margin-bottom: 20px;  /* Reduced margin */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Lighter shadow for smaller cards */
+        .job-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
 
-        .job-posting:hover {
-            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3);
+        .job-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
         }
 
-        .job-posting h2 {
-            font-size: 1.6rem;  /* Reduced font size */
+        .job-card h2 {
+            font-size: 1.8rem;
             font-weight: 600;
-            color: #007bff;
+            color: #343a40;
         }
 
-        .job-posting p {
-            font-size: 1rem;  /* Reduced font size */
-            line-height: 1.6;
-            color: black;
+        .job-card p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin-bottom: 10px;
         }
 
-        /* Button Styles */
-        .toggle-recommendations {
-            background: #007bff;
-            color: white;
-            padding: 8px 15px;  /* Reduced padding */
-            border-radius: 30px;
-            border: none;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.3s;
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            gap: 10px;
         }
 
-        .toggle-recommendations:hover {
-            background: #0056b3; /* Darker blue on hover */
-        }
-
-        .delete-button {
-            background: #e74c3c;
-            color: white;
-            padding: 8px 15px;  /* Reduced padding */
-            border-radius: 30px;
-            border: none;
-            cursor: pointer;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-
-        .delete-button:hover {
-            background: #c0392b;
-        }
-
-        .back-button {
-            display: inline-block;
-            background: #007bff;
-            color: white;
-            padding: 10px 25px;  /* Reduced padding */
-            border-radius: 30px;
-            text-align: center;
-            font-size: 1.1rem;  /* Reduced font size */
-            font-weight: 600;
-            margin-top: 20px;
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
             text-decoration: none;
-            transition: background 0.3s;
+            transition: background-color 0.3s;
         }
 
-        .back-button:hover {
-            background: #0056b3;
+        .btn-primary:hover {
+            background-color: #0056b3;
         }
 
+        .btn-danger {
+            background-color: #dc3545;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-danger:hover {
+            background-color: #b02a37;
+        }
+
+        /* Recommendations */
         .recommendations {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            border-radius: 8px;
             display: none;
-            margin-top: 20px;
         }
-        .recommendations h3{
-            color: black;
+
+        .recommendations h3 {
+            font-size: 1.2rem;
+            color: #343a40;
         }
 
         .recommendation-item {
-            background: white;
-            padding: 10px;
             margin-bottom: 10px;
-            border-radius: 10px;
-            color: black;
-            border: 3px solid #007bff;
+            padding: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
-        /* Pagination Styles */
-        .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;  /* Reduced margin */
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 0.9rem;
         }
-
-        .pagination a {
-            margin: 0 5px;
-            padding: 8px 12px;  /* Reduced padding */
-            text-decoration: none;
-            color: #007bff;
-            border: 2px solid #007bff;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: background 0.3s, color 0.3s;
-        }
-
-        .pagination a:hover {
-            background: #007bff;
-            color: #ffffff;
-        }
-
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Job Postings</h1>
+        <!-- Header -->
+        <div class="header">
+            <h1>Job Postings</h1>
+            <p>Manage and view all job postings here</p>
+        </div>
 
         <!-- Search Bar -->
         <div class="search-bar">
             <input type="text" id="search-bar" placeholder="Search job postings...">
         </div>
 
-        <!-- Job Postings -->
+        <!-- Job Cards -->
         <div id="job-postings">
             {% for job in job_postings %}
-            <div class="job-posting" data-title="{{ job.title }}" data-skills="{{ job.required_skills }}">
+            <div class="job-card" data-title="{{ job.title }}" data-skills="{{ job.required_skills }}">
                 <h2>{{ job.title }}</h2>
                 <p><strong>Description:</strong> {{ job.description }}</p>
                 <p><strong>Required Skills:</strong> {{ job.required_skills }}</p>
-                
-                <!-- Toggle Recommendations -->
-                <button class="toggle-recommendations">
-                    <i class="fas fa-users"></i> Show Recommendations
-                </button>
-                
+
+                <div class="btn-group">
+                    <button class="btn btn-primary toggle-recommendations">
+                        <i class="fas fa-users"></i> Show Recommendations
+                    </button>
+                    <a href="/jobpostings/delete-job/{{ job.id }}/" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this job?')">
+                        <i class="fas fa-trash"></i> Delete
+                    </a>
+                </div>
+
                 <div class="recommendations">
-                    <h3>Recommendations:</h3>
+                    <h3>Recommendations</h3>
                     {% if job.recommendations.all %}
                         {% for recommendation in job.recommendations.all %}
                         <div class="recommendation-item">
-                            <strong>{{ recommendation.name }}</strong>
-                            <p><span class="font-semibold">Job Title:</span> {{ recommendation.job_title }}</p>
-                            <p><span class="font-semibold">Skills:</span> {{ recommendation.skills }}</p>
-                            <p><span class="font-semibold">Experience:</span> {{ recommendation.experience }} years</p>
+                            <p><strong>Name:</strong> {{ recommendation.name }}</p>
+                            <p><strong>Job Title:</strong> {{ recommendation.job_title }}</p>
+                            <p><strong>Skills:</strong> {{ recommendation.skills }}</p>
+                            <p><strong>Experience:</strong> {{ recommendation.experience }} years</p>
                         </div>
                         {% endfor %}
                     {% else %}
                         <p>No recommendations available.</p>
                     {% endif %}
                 </div>
-
-                <!-- Delete Button -->
-                <button class="delete-button" onclick="confirmDeletion('{{ job.id }}')">
-                    <i class="fas fa-trash"></i> Delete
-                </button>                
             </div>
             {% endfor %}
         </div>
 
-        <!-- Pagination -->
-        <div class="pagination">
-            {% for page in pages %}
-            <a href="?page={{ page }}">{{ page }}</a>
-            {% endfor %}
+        <!-- Footer -->
+        <div class="footer">
+            <p>Admin Panel | Job Postings Management</p>
         </div>
-
-        <a href="{% url 'post-job' %}" class="back-button">
-            <i class="fas fa-arrow-left"></i> Back to Post Job
-        </a>
     </div>
 
     <script>
-        // Real-time search filter
         document.getElementById('search-bar').addEventListener('input', function() {
             const query = this.value.toLowerCase();
-            document.querySelectorAll('.job-posting').forEach(posting => {
-                const title = posting.dataset.title.toLowerCase();
-                const skills = posting.dataset.skills.toLowerCase();
+            document.querySelectorAll('.job-card').forEach(card => {
+                const title = card.dataset.title.toLowerCase();
+                const skills = card.dataset.skills.toLowerCase();
                 if (title.includes(query) || skills.includes(query)) {
-                    posting.style.display = '';
+                    card.style.display = '';
                 } else {
-                    posting.style.display = 'none';
+                    card.style.display = 'none';
                 }
             });
         });
 
-        // Toggle recommendations
         document.querySelectorAll('.toggle-recommendations').forEach(button => {
             button.addEventListener('click', function() {
-                const recommendations = this.nextElementSibling;
+                const recommendations = this.parentElement.nextElementSibling;
                 recommendations.style.display = recommendations.style.display === 'block' ? 'none' : 'block';
                 this.innerHTML = recommendations.style.display === 'block' 
                     ? '<i class="fas fa-users"></i> Hide Recommendations'
                     : '<i class="fas fa-users"></i> Show Recommendations';
             });
         });
-
-        // Confirmation for deletion
-        function confirmDeletion(jobId) {
-            if (confirm('Are you sure you want to delete this job posting?')) {
-                window.location.href = `/jobpostings/delete-job/${jobId}/`;
-            }
-        }        
     </script>
 </body>
 </html>
